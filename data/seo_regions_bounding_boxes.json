@@ -1,0 +1,149 @@
+[
+    {
+        "region": "Western Sydney",
+        "lat_min": -34.15,
+        "lat_max": -33.5,
+        "lon_min": 150.6,
+        "lon_max": 151.05
+    },
+    {
+        "region": "Eastern Suburbs",
+        "lat_min": -34.0,
+        "lat_max": -33.85,
+        "lon_min": 151.2,
+        "lon_max": 151.3
+    },
+    {
+        "region": "Northern Beaches",
+        "lat_min": -33.9,
+        "lat_max": -33.6,
+        "lon_min": 151.2,
+        "lon_max": 151.35
+    },
+    {
+        "region": "Blue Mountains",
+        "lat_min": -34.1,
+        "lat_max": -33.5,
+        "lon_min": 150.0,
+        "lon_max": 150.7
+    },
+    {
+        "region": "Central Coast",
+        "lat_min": -33.6,
+        "lat_max": -33.2,
+        "lon_min": 151.2,
+        "lon_max": 151.6
+    },
+    {
+        "region": "Newcastle & Hunter",
+        "lat_min": -33.1,
+        "lat_max": -32.7,
+        "lon_min": 151.4,
+        "lon_max": 151.9
+    },
+    {
+        "region": "Illawarra",
+        "lat_min": -34.8,
+        "lat_max": -34.2,
+        "lon_min": 150.7,
+        "lon_max": 151.1
+    },
+    {
+        "region": "Mid North Coast",
+        "lat_min": -32.5,
+        "lat_max": -30.5,
+        "lon_min": 152.5,
+        "lon_max": 153.1
+    },
+    {
+        "region": "South Coast",
+        "lat_min": -36.0,
+        "lat_max": -34.8,
+        "lon_min": 149.5,
+        "lon_max": 150.6
+    },
+    {
+        "region": "Canberra",
+        "lat_min": -35.5,
+        "lat_max": -35.0,
+        "lon_min": 148.9,
+        "lon_max": 149.4
+    },
+    {
+        "region": "Melbourne Metro",
+        "lat_min": -38.2,
+        "lat_max": -37.5,
+        "lon_min": 144.5,
+        "lon_max": 145.5
+    },
+    {
+        "region": "Geelong & Surf Coast",
+        "lat_min": -38.5,
+        "lat_max": -37.9,
+        "lon_min": 144.0,
+        "lon_max": 144.6
+    },
+    {
+        "region": "Gold Coast",
+        "lat_min": -28.3,
+        "lat_max": -27.8,
+        "lon_min": 153.2,
+        "lon_max": 153.5
+    },
+    {
+        "region": "Brisbane Metro",
+        "lat_min": -27.7,
+        "lat_max": -27.2,
+        "lon_min": 152.8,
+        "lon_max": 153.3
+    },
+    {
+        "region": "Sunshine Coast",
+        "lat_min": -26.9,
+        "lat_max": -26.3,
+        "lon_min": 152.8,
+        "lon_max": 153.2
+    },
+    {
+        "region": "Darwin",
+        "lat_min": -12.6,
+        "lat_max": -12.2,
+        "lon_min": 130.7,
+        "lon_max": 131.1
+    },
+    {
+        "region": "Hobart",
+        "lat_min": -43.1,
+        "lat_max": -42.7,
+        "lon_min": 147.1,
+        "lon_max": 147.6
+    },
+    {
+        "region": "Adelaide Metro",
+        "lat_min": -35.1,
+        "lat_max": -34.6,
+        "lon_min": 138.4,
+        "lon_max": 138.8
+    },
+    {
+        "region": "Perth Metro",
+        "lat_min": -32.2,
+        "lat_max": -31.5,
+        "lon_min": 115.7,
+        "lon_max": 116.1
+    },
+    {
+        "region": "Townsville",
+        "lat_min": -19.5,
+        "lat_max": -19.1,
+        "lon_min": 146.6,
+        "lon_max": 146.9
+    },
+    {
+        "region": "Cairns",
+        "lat_min": -17.0,
+        "lat_max": -16.7,
+        "lon_min": 145.6,
+        "lon_max": 145.9
+    }
+]

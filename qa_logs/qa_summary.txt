@@ -1,0 +1,16 @@
+QA SUMMARY
+------------------------
+Total suburbs: 17732
+Unmapped suburbs: 8882
+Unique regions assigned: 88
+
+Top 5 regions:
+assigned_region
+Western Australia - Wheat Belt    460
+Latrobe - Gippsland               354
+Wide Bay                          352
+Darling Downs - Maranoa           330
+North West                        324
+
+Sample of 100 records written to sample_check.csv
+Unmapped records written to unmapped_suburbs.csv
