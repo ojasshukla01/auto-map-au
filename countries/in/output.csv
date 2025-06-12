@@ -1,0 +1,642 @@
+suburb,state,latitude,longitude,index_right,DISTRICT,ST_NM,ST_CEN_CD,DT_CEN_CD,censuscode,final_region,was_different
+Adilabad,Andhra Pradesh,19.256979179003075,78.9719953809062,0.0,Adilabad,Andhra Pradesh,28.0,1.0,532.0,Adilabad,False
+Agra,Uttar Pradesh,27.03797123391708,78.07933939422655,1.0,Agra,Uttar Pradesh,9.0,15.0,146.0,Agra,False
+Ahmadabad,Gujarat,22.71164784451044,72.19613823184952,2.0,Ahmadabad,Gujarat,24.0,7.0,474.0,Ahmadabad,False
+Ahmadnagar,Maharashtra,19.204835385732707,74.67651655890515,3.0,Ahmadnagar,Maharashtra,27.0,26.0,522.0,Ahmadnagar,False
+Aizawl,Mizoram,23.81135126955893,92.88915797589664,4.0,Aizawl,Mizoram,15.0,3.0,283.0,Aizawl,False
+Ajmer,Rajasthan,26.23093478014917,74.77519789080098,5.0,Ajmer,Rajasthan,8.0,21.0,119.0,Ajmer,False
+Akola,Maharashtra,20.74941653626052,77.05327985117816,6.0,Akola,Maharashtra,27.0,5.0,501.0,Akola,False
+Alappuzha,Kerala,9.42374174818029,76.44953171883013,7.0,Alappuzha,Kerala,32.0,11.0,598.0,Alappuzha,False
+Aligarh,Uttar Pradesh,27.92707933792397,78.0793090561671,8.0,Aligarh,Uttar Pradesh,9.0,12.0,143.0,Aligarh,False
+Alirajpur,Madhya Pradesh,22.31418024457722,74.36458358174268,9.0,Alirajpur,Madhya Pradesh,23.0,48.0,465.0,Alirajpur,False
+Allahabad,Uttar Pradesh,25.299525050714085,81.97168291993609,10.0,Allahabad,Uttar Pradesh,9.0,44.0,175.0,Allahabad,False
+Almora,Uttarakhand,29.689426915260874,79.50178547953968,11.0,Almora,Uttarakhand,5.0,9.0,64.0,Almora,False
+Alwar,Rajasthan,27.59265490201197,76.6060086376742,12.0,Alwar,Rajasthan,8.0,6.0,104.0,Alwar,False
+Ambala,Haryana,30.32869633826384,76.94227084459402,13.0,Ambala,Haryana,6.0,2.0,70.0,Ambala,False
+Ambedkar Nagar,Uttar Pradesh,26.420181634903063,82.66850173855383,14.0,Ambedkar Nagar,Uttar Pradesh,9.0,47.0,178.0,Ambedkar Nagar,False
+Amravati,Maharashtra,21.188684943985947,77.57167805446147,15.0,Amravati,Maharashtra,27.0,7.0,503.0,Amravati,False
+Amreli,Gujarat,21.38491346469528,71.21650575739966,16.0,Amreli,Gujarat,24.0,13.0,480.0,Amreli,False
+Amritsar,Punjab,31.70484762798978,74.9005742708566,17.0,Amritsar,Punjab,3.0,15.0,49.0,Amritsar,False
+Anand,Gujarat,22.448134251600404,72.77741758301866,18.0,Anand,Gujarat,24.0,15.0,482.0,Anand,False
+Anantapur,Andhra Pradesh,14.482049128643329,77.57669972514844,19.0,Anantapur,Andhra Pradesh,28.0,22.0,553.0,Anantapur,False
+Anantnag,Jammu & Kashmir,33.816141058311736,75.3575222014778,20.0,Anantnag,Jammu & Kashmir,1.0,14.0,14.0,Anantnag,False
+Anjaw,Arunanchal Pradesh,28.06600217175343,96.82868702505031,21.0,Anjaw,Arunanchal Pradesh,12.0,16.0,260.0,Anjaw,False
+Anugul,Odisha,20.986960102595383,84.90916080718043,22.0,Anugul,Odisha,21.0,15.0,384.0,Anugul,False
+Anuppur,Madhya Pradesh,23.057024127811957,81.68412711167252,23.0,Anuppur,Madhya Pradesh,23.0,44.0,461.0,Anuppur,False
+Araria,Bihar,26.199718615243867,87.35433084092533,24.0,Araria,Bihar,10.0,7.0,209.0,Araria,False
+Ariyalur,Tamil Nadu,11.160620409143508,79.24425248797971,25.0,Ariyalur,Tamil Nadu,33.0,15.0,616.0,Ariyalur,False
+Ashoknagar,Madhya Pradesh,24.6097305448008,77.875177297593,26.0,Ashoknagar,Madhya Pradesh,23.0,42.0,459.0,Ashoknagar,False
+Auraiya,Uttar Pradesh,26.66093639692288,79.48278512875295,27.0,Auraiya,Uttar Pradesh,9.0,31.0,162.0,Auraiya,False
+Aurangabad,Bihar,24.793161858202733,84.41229097360156,28.0,Aurangabad,Bihar,10.0,33.0,235.0,Aurangabad,False
+Aurangabad,Maharashtra,20.022372135856248,75.27357908900201,29.0,Aurangabad,Maharashtra,27.0,19.0,515.0,Aurangabad,False
+Azamgarh,Uttar Pradesh,26.047468463789468,83.06968321317174,30.0,Azamgarh,Uttar Pradesh,9.0,60.0,191.0,Azamgarh,False
+Badgam,Jammu & Kashmir,33.89014836915406,74.66304064313675,31.0,Badgam,Jammu & Kashmir,1.0,2.0,2.0,Badgam,False
+Bagalkot,Karnataka,16.22090049806482,75.62517176277908,32.0,Bagalkot,Karnataka,29.0,2.0,556.0,Bagalkot,False
+Bageshwar,Uttarakhand,29.99144771975152,79.85968923036216,33.0,Bageshwar,Uttarakhand,5.0,8.0,63.0,Bageshwar,False
+Baghpat,Uttar Pradesh,29.0555132909466,77.31284123126326,34.0,Baghpat,Uttar Pradesh,9.0,8.0,139.0,Baghpat,False
+Bahraich,Uttar Pradesh,27.737837561531567,81.45156959804024,35.0,Bahraich,Uttar Pradesh,9.0,49.0,180.0,Bahraich,False
+Baksa,Assam,26.66493327857012,91.346497484041,36.0,Baksa,Assam,18.0,25.0,324.0,Baksa,False
+Balaghat,Madhya Pradesh,21.88137233094057,80.36075881370567,37.0,Balaghat,Madhya Pradesh,23.0,40.0,457.0,Balaghat,False
+Balangir,Odisha,20.590862801257792,83.17397494215,38.0,Balangir,Odisha,21.0,24.0,393.0,Balangir,False
+Baleshwar,Odisha,21.490175846342677,86.91734965624593,39.0,Baleshwar,Odisha,21.0,8.0,377.0,Baleshwar,False
+Ballia,Uttar Pradesh,25.875589939538823,84.10535383313558,40.0,Ballia,Uttar Pradesh,9.0,62.0,193.0,Ballia,False
+Balrampur,Uttar Pradesh,27.48535030489173,82.37758928059372,41.0,Balrampur,Uttar Pradesh,9.0,51.0,182.0,Balrampur,False
+Banas Kantha,Gujarat,24.283958392307824,72.03183776457492,42.0,Banas Kantha,Gujarat,24.0,2.0,469.0,Banas Kantha,False
+Banda,Uttar Pradesh,25.465514355399456,80.56179929385885,43.0,Banda,Uttar Pradesh,9.0,39.0,170.0,Banda,False
+Bandipore,Jammu & Kashmir,34.504272806942645,74.8282170190878,44.0,Bandipore,Jammu & Kashmir,1.0,9.0,9.0,Bandipore,False
+Bangalore Rural,Karnataka,13.22576267022119,77.57497614108132,45.0,Bangalore Rural,Karnataka,29.0,29.0,583.0,Bangalore Rural,False
+Bangalore,Karnataka,12.95094506761076,77.59592359827768,46.0,Bangalore,Karnataka,29.0,18.0,572.0,Bangalore,False
+Banka,Bihar,24.853937851872065,86.84089211877244,47.0,Banka,Bihar,10.0,23.0,225.0,Banka,False
+Bankura,West Bengal,23.14153130710338,87.13501648756137,48.0,Bankura,West Bengal,19.0,13.0,339.0,Bankura,False
+Banswara,Rajasthan,23.475646129593983,74.36390476863866,49.0,Banswara,Rajasthan,8.0,27.0,125.0,Banswara,False
+Bara Banki,Uttar Pradesh,26.939153959480763,81.32730234086621,50.0,Bara Banki,Uttar Pradesh,9.0,45.0,176.0,Bara Banki,False
+Bargarh,Odisha,21.220741623911238,83.3537984927443,51.0,Bargarh,Odisha,21.0,1.0,370.0,Bargarh,False
+Baramula,Jammu & Kashmir,34.16298630781218,74.46335627297495,52.0,Baramula,Jammu & Kashmir,1.0,8.0,8.0,Baramula,False
+Baran,Rajasthan,24.996034617607336,76.75663111162648,53.0,Baran,Rajasthan,8.0,30.0,128.0,Baran,False
+Barddhaman,West Bengal,23.42829848287737,87.76738882457471,54.0,Barddhaman,West Bengal,19.0,9.0,335.0,Barddhaman,False
+Bareilly,Uttar Pradesh,28.449942776479,79.42232566281356,55.0,Bareilly,Uttar Pradesh,9.0,19.0,150.0,Bareilly,False
+Barmer,Rajasthan,25.737398170466456,71.47346992769717,56.0,Barmer,Rajasthan,8.0,17.0,115.0,Barmer,False
+Barnala,Punjab,30.39740535003875,75.50480304345388,57.0,Barnala,Punjab,3.0,20.0,54.0,Barnala,False
+Barpeta,Assam,26.340410244313563,91.01090946199972,58.0,Barpeta,Assam,18.0,4.0,303.0,Barpeta,False
+Barwani,Madhya Pradesh,21.787753812911934,75.02117456266379,59.0,Barwani,Madhya Pradesh,23.0,24.0,441.0,Barwani,False
+Bastar,Chhattisgarh,19.42333345799433,81.77005140728022,60.0,Bastar,Chhattisgarh,22.0,15.0,414.0,Bastar,False
+Basti,Uttar Pradesh,26.818578395583945,82.63107734261837,61.0,Basti,Uttar Pradesh,9.0,54.0,185.0,Basti,False
+Bathinda,Punjab,30.183172426894696,75.04071126507328,62.0,Bathinda,Punjab,3.0,12.0,46.0,Bathinda,False
+Bauda,Odisha,20.646945526700293,84.17760929548784,63.0,Bauda,Odisha,21.0,22.0,391.0,Bauda,False
+Begusarai,Bihar,25.49543895381757,86.13079675652988,64.0,Begusarai,Bihar,10.0,20.0,222.0,Begusarai,False
+Belgaum,Karnataka,16.120582199430974,74.8231354465012,65.0,Belgaum,Karnataka,29.0,1.0,555.0,Belgaum,False
+Bellary,Karnataka,15.11002052022031,76.53360104185684,66.0,Bellary,Karnataka,29.0,11.0,565.0,Bellary,False
+Betul,Madhya Pradesh,21.878615309268557,77.87107012026414,67.0,Betul,Madhya Pradesh,23.0,30.0,447.0,Betul,False
+Bhadrak,Odisha,20.98598271129392,86.62536019692577,68.0,Bhadrak,Odisha,21.0,9.0,378.0,Bhadrak,False
+Bhagalpur,Bihar,25.27060278299008,87.08439284507178,69.0,Bhagalpur,Bihar,10.0,22.0,224.0,Bhagalpur,False
+Bhandara,Maharashtra,21.129850448460157,79.75085906781024,70.0,Bhandara,Maharashtra,27.0,10.0,506.0,Bhandara,False
+Bharatpur,Rajasthan,27.246646566732547,77.2786898364027,71.0,Bharatpur,Rajasthan,8.0,7.0,105.0,Bharatpur,False
+Bharuch,Gujarat,21.78679779803894,72.92500482246312,72.0,Bharuch,Gujarat,24.0,21.0,488.0,Bharuch,False
+Bhavnagar,Gujarat,21.667571181962654,71.84098427305655,73.0,Bhavnagar,Gujarat,24.0,14.0,481.0,Bhavnagar,False
+Bhilwara,Rajasthan,25.480564511188625,74.72897280083095,74.0,Bhilwara,Rajasthan,8.0,24.0,122.0,Bhilwara,False
+Bhind,Madhya Pradesh,26.421528973817484,78.72256365414245,75.0,Bhind,Madhya Pradesh,23.0,3.0,420.0,Bhind,False
+Bhiwani,Haryana,28.718290726519427,75.96758067264628,76.0,Bhiwani,Haryana,6.0,13.0,81.0,Bhiwani,False
+Bhojpur,Bihar,25.46930032101409,84.54372466310073,77.0,Bhojpur,Bihar,10.0,29.0,231.0,Bhojpur,False
+Bhopal,Madhya Pradesh,23.4785251988594,77.39605166879443,78.0,Bhopal,Madhya Pradesh,23.0,27.0,444.0,Bhopal,False
+Bid,Maharashtra,18.93078077994545,75.86953258892417,79.0,Bid,Maharashtra,27.0,27.0,523.0,Bid,False
+Bidar,Karnataka,17.953169852817737,77.22653411762283,80.0,Bidar,Karnataka,29.0,4.0,558.0,Bidar,False
+Bijapur,Chhattisgarh,18.84393698203871,80.77603233241211,81.0,Bijapur,Chhattisgarh,22.0,18.0,417.0,Bijapur,False
+Bijapur,Karnataka,16.794409306446052,75.95302963353917,82.0,Bijapur,Karnataka,29.0,3.0,557.0,Bijapur,False
+Bijnor,Uttar Pradesh,29.38744765410452,78.39873243729114,83.0,Bijnor,Uttar Pradesh,9.0,3.0,134.0,Bijnor,False
+Bikaner,Rajasthan,28.180040261631387,73.17766570263343,84.0,Bikaner,Rajasthan,8.0,3.0,101.0,Bikaner,False
+Bilaspur,Chhattisgarh,22.35245256930933,81.9616199983178,85.0,Bilaspur,Chhattisgarh,22.0,7.0,406.0,Bilaspur,False
+Bilaspur,Himachal Pradesh,31.37243449383531,76.67188990779637,86.0,Bilaspur,Himachal Pradesh,2.0,8.0,30.0,Bilaspur,False
+Birbhum,West Bengal,23.954236308456814,87.6666349212322,87.0,Birbhum,West Bengal,19.0,8.0,334.0,Birbhum,False
+Bishnupur,Manipur,24.53533696371544,93.80109480100523,88.0,Bishnupur,Manipur,14.0,4.0,275.0,Bishnupur,False
+Bokaro,Jharkhand,23.69170171327393,85.98793902026443,89.0,Bokaro,Jharkhand,20.0,10.0,355.0,Bokaro,False
+Bongaigaon,Assam,26.365288300961545,90.62481421482978,90.0,Bongaigaon,Assam,18.0,20.0,319.0,Bongaigaon,False
+Budaun,Uttar Pradesh,28.115732532018548,78.9450444946557,91.0,Budaun,Uttar Pradesh,9.0,18.0,149.0,Budaun,False
+Bulandshahr,Uttar Pradesh,28.357912064823445,78.01224626775488,92.0,Bulandshahr,Uttar Pradesh,9.0,11.0,142.0,Bulandshahr,False
+Buldana,Maharashtra,20.512293598870205,76.40837838414899,93.0,Buldana,Maharashtra,27.0,4.0,500.0,Buldana,False
+Bundi,Rajasthan,25.470518214591607,75.77763512249237,94.0,Bundi,Rajasthan,8.0,23.0,121.0,Bundi,False
+Burhanpur,Madhya Pradesh,21.372230092434467,76.37020667263837,95.0,Burhanpur,Madhya Pradesh,23.0,50.0,467.0,Burhanpur,False
+Buxar,Bihar,25.491576751648168,84.10188144893894,96.0,Buxar,Bihar,10.0,30.0,232.0,Buxar,False
+Cachar,Assam,24.81166784342313,92.85635406317718,97.0,Cachar,Assam,18.0,17.0,316.0,Cachar,False
+Central,NCT of Delhi,28.64311831546951,77.21967450557828,98.0,Central,NCT of Delhi,7.0,6.0,95.0,Central,False
+Chamba,Himachal Pradesh,32.678593688194056,76.3542520539072,99.0,Chamba,Himachal Pradesh,2.0,1.0,23.0,Chamba,False
+Chamoli,Uttarakhand,30.49656902550316,79.57890780364163,100.0,Chamoli,Uttarakhand,5.0,2.0,57.0,Chamoli,False
+Champawat,Uttarakhand,29.299017522310383,80.06972521941,101.0,Champawat,Uttarakhand,5.0,10.0,65.0,Champawat,False
+Champhai,Mizoram,23.530158103240638,93.24003336793388,102.0,Champhai,Mizoram,15.0,4.0,284.0,Champhai,False
+Chamrajnagar,Karnataka,11.957039505638392,77.09988231196597,103.0,Chamrajnagar,Karnataka,29.0,24.0,578.0,Chamrajnagar,False
+Chandauli,Uttar Pradesh,25.138032680384303,83.2611458660541,104.0,Chandauli,Uttar Pradesh,9.0,65.0,196.0,Chandauli,False
+Chandel,Manipur,24.235922373244488,94.09329619134655,105.0,Chandel,Manipur,14.0,9.0,280.0,Chandel,False
+Chandigarh,Chandigarh,30.730070774991454,76.78146937854117,106.0,Chandigarh,Chandigarh,4.0,1.0,55.0,Chandigarh,False
+Chandrapur,Maharashtra,20.11887993528365,79.44389055238354,107.0,Chandrapur,Maharashtra,27.0,13.0,509.0,Chandrapur,False
+Changlang,Arunanchal Pradesh,27.363031096866123,96.34542287592576,108.0,Changlang,Arunanchal Pradesh,12.0,9.0,253.0,Changlang,False
+Chatra,Jharkhand,24.173868362611596,84.88705150879215,109.0,Chatra,Jharkhand,20.0,2.0,347.0,Chatra,False
+Chennai,Tamil Nadu,13.064707574034056,80.25231091569196,110.0,Chennai,Tamil Nadu,33.0,2.0,603.0,Chennai,False
+Chhatarpur,Madhya Pradesh,24.79779373995737,79.66670898951497,111.0,Chhatarpur,Madhya Pradesh,23.0,8.0,425.0,Chhatarpur,False
+Chhindwara,Madhya Pradesh,22.12249456018392,78.85558728668461,112.0,Chhindwara,Madhya Pradesh,23.0,38.0,455.0,Chhindwara,False
+Chikkaballapura,Karnataka,13.578380201851294,77.83618684602374,113.0,Chikkaballapura,Karnataka,29.0,28.0,582.0,Chikkaballapura,False
+Chikmagalur,Karnataka,13.4545131075708,75.69144314637256,114.0,Chikmagalur,Karnataka,29.0,16.0,570.0,Chikmagalur,False
+Chirang,Assam,26.643100009128432,90.61631058358311,115.0,Chirang,Assam,18.0,21.0,320.0,Chirang,False
+Chitradurga,Karnataka,14.16811212486817,76.5165523749845,116.0,Chitradurga,Karnataka,29.0,12.0,566.0,Chitradurga,False
+Chitrakoot,Uttar Pradesh,25.20535233502397,81.08962989105333,117.0,Chitrakoot,Uttar Pradesh,9.0,40.0,171.0,Chitrakoot,False
+Chittaurgarh,Rajasthan,24.82915151853261,74.779937431142,118.0,Chittaurgarh,Rajasthan,8.0,28.0,126.0,Chittaurgarh,False
+Chittoor,Andhra Pradesh,13.467747404456594,79.01442306359817,119.0,Chittoor,Andhra Pradesh,28.0,23.0,554.0,Chittoor,False
+Churachandpur,Manipur,24.290049737720437,93.42685614369,120.0,Churachandpur,Manipur,14.0,3.0,274.0,Churachandpur,False
+Churu,Rajasthan,28.34750244180311,74.69931813389731,121.0,Churu,Rajasthan,8.0,4.0,102.0,Churu,False
+Coimbatore,Tamil Nadu,10.87497967171246,76.97557548386095,122.0,Coimbatore,Tamil Nadu,33.0,31.0,632.0,Coimbatore,False
+Cuddalore,Tamil Nadu,11.53513917083165,79.4509179821038,123.0,Cuddalore,Tamil Nadu,33.0,16.0,617.0,Cuddalore,False
+Y.s.r.,Andhra Pradesh,14.460670449303343,78.78336331650993,124.0,Y.s.r.,Andhra Pradesh,28.0,20.0,551.0,Y.s.r.,False
+Cuttack,Odisha,20.44972735945809,85.70570635958352,125.0,Cuttack,Odisha,21.0,12.0,381.0,Cuttack,False
+Dadra & Nagar Haveli,Dadara & Nagar Havelli,20.195104609590853,73.07064314824022,599.0,Valsad,Gujarat,24.0,24.0,491.0,Valsad,False
+Dakshin Bastar Dantewada,Chhattisgarh,18.50112926165689,81.37976236832053,127.0,Dakshin Bastar Dantewada,Chhattisgarh,22.0,17.0,416.0,Dakshin Bastar Dantewada,False
+Dakshin Dinajpur,West Bengal,25.36412421985176,88.58812027956063,128.0,Dakshin Dinajpur,West Bengal,19.0,5.0,331.0,Dakshin Dinajpur,False
+Dakshina Kannada,Karnataka,12.838388239827369,75.26659271837093,129.0,Dakshina Kannada,Karnataka,29.0,21.0,575.0,Dakshina Kannada,False
+Daman,Daman & Diu,20.41407213114004,72.85235391809138,130.0,Daman,Daman & Diu,25.0,2.0,495.0,Daman,False
+Damoh,Madhya Pradesh,23.81392154227219,79.5273650292071,131.0,Damoh,Madhya Pradesh,23.0,11.0,428.0,Damoh,False
+Darbhanga,Bihar,26.11398381030758,86.02517421942665,132.0,Darbhanga,Bihar,10.0,13.0,215.0,Darbhanga,False
+Darjiling,West Bengal,26.91390661658812,88.39479434246262,133.0,Darjiling,West Bengal,19.0,1.0,327.0,Darjiling,False
+Darrang,Assam,26.44941972744641,92.03749520971634,134.0,Darrang,Assam,18.0,26.0,325.0,Darrang,False
+Data Not Available,Jammu & Kashmir,35.5449190342943,74.9041799487303,135.0,Data Not Available,Jammu & Kashmir,99.0,99.0,0.0,Data Not Available,False
+Datia,Madhya Pradesh,25.85088380570742,78.56889286706094,136.0,Datia,Madhya Pradesh,23.0,5.0,422.0,Datia,False
+Davanagere,Karnataka,14.40847495016166,75.95486475646149,137.0,Davanagere,Karnataka,29.0,13.0,567.0,Davanagere,False
+Debagarh,Odisha,21.466117464258875,84.80370992597086,138.0,Debagarh,Odisha,21.0,4.0,373.0,Debagarh,False
+Dehradun,Uttarakhand,30.46448321687124,77.97302618772767,139.0,Dehradun,Uttarakhand,5.0,5.0,60.0,Dehradun,False
+Deoghar,Jharkhand,24.328189845226927,86.74110581034603,140.0,Deoghar,Jharkhand,20.0,5.0,350.0,Deoghar,False
+Deoria,Uttar Pradesh,26.4230216824067,83.83650503463018,141.0,Deoria,Uttar Pradesh,9.0,59.0,190.0,Deoria,False
+Dewas,Madhya Pradesh,22.7457111664531,76.45617936646056,142.0,Dewas,Madhya Pradesh,23.0,20.0,437.0,Dewas,False
+Dhalai,Tripura,23.843471657292145,91.92589326358488,143.0,Dhalai,Tripura,16.0,3.0,291.0,Dhalai,False
+Dhamtari,Chhattisgarh,20.55671274089939,81.81034180647396,144.0,Dhamtari,Chhattisgarh,22.0,13.0,412.0,Dhamtari,False
+Dhanbad,Jharkhand,23.82936227390713,86.47191897567325,145.0,Dhanbad,Jharkhand,20.0,9.0,354.0,Dhanbad,False
+Dhar,Madhya Pradesh,22.498204929206963,75.10429175991125,146.0,Dhar,Madhya Pradesh,23.0,21.0,438.0,Dhar,False
+Dharmapuri,Tamil Nadu,12.09700425388268,78.19574183731598,147.0,Dharmapuri,Tamil Nadu,33.0,29.0,630.0,Dharmapuri,False
+Dharwad,Karnataka,15.389546187999912,75.15385873096292,148.0,Dharwad,Karnataka,29.0,8.0,562.0,Dharwad,False
+Dhaulpur,Rajasthan,26.681043129600607,77.70355842152902,149.0,Dhaulpur,Rajasthan,8.0,8.0,106.0,Dhaulpur,False
+Dhemaji,Assam,27.57805644471128,94.77820021736387,150.0,Dhemaji,Assam,18.0,9.0,308.0,Dhemaji,False
+Dhenkanal,Odisha,20.82646786678984,85.52621814965923,151.0,Dhenkanal,Odisha,21.0,14.0,383.0,Dhenkanal,False
+Dhubri,Assam,26.06800876298772,90.02250016589068,152.0,Dhubri,Assam,18.0,2.0,301.0,Dhubri,False
+Dhule,Maharashtra,21.11038286183689,74.60125920093256,153.0,Dhule,Maharashtra,27.0,2.0,498.0,Dhule,False
+Dibang Valley,Arunanchal Pradesh,28.9519484959164,95.90281193599571,154.0,Dibang Valley,Arunanchal Pradesh,12.0,13.0,257.0,Dibang Valley,False
+Dibrugarh,Assam,27.36671291850649,95.0561791383491,155.0,Dibrugarh,Assam,18.0,11.0,310.0,Dibrugarh,False
+Dindigul,Tamil Nadu,10.389894341752631,77.82004096153759,156.0,Dindigul,Tamil Nadu,33.0,11.0,612.0,Dindigul,False
+Dindori,Madhya Pradesh,22.88947906097537,81.05575827465907,157.0,Dindori,Madhya Pradesh,23.0,36.0,453.0,Dindori,False
+Diu,Daman & Diu,20.720892837252865,70.93987017773297,158.0,Diu,Daman & Diu,25.0,1.0,494.0,Diu,False
+Doda,Jammu & Kashmir,33.10105174675616,75.64952465925822,159.0,Doda,Jammu & Kashmir,1.0,16.0,16.0,Doda,False
+Dohad,Gujarat,22.857654265418468,74.11597145381955,160.0,Dohad,Gujarat,24.0,18.0,485.0,Dohad,False
+Dumka,Jharkhand,24.31997917236953,87.26656030765017,161.0,Dumka,Jharkhand,20.0,17.0,362.0,Dumka,False
+Dungarpur,Rajasthan,23.73275761371124,73.85516379411585,162.0,Dungarpur,Rajasthan,8.0,26.0,124.0,Dungarpur,False
+Durg,Chhattisgarh,21.193188454018447,81.35426265021084,163.0,Durg,Chhattisgarh,22.0,10.0,409.0,Durg,False
+Dimapur,Nagaland,25.778580015962287,93.78509785638924,164.0,Dimapur,Nagaland,13.0,5.0,265.0,Dimapur,False
+East,NCT of Delhi,28.62925578920099,77.29802242701307,165.0,East,NCT of Delhi,7.0,4.0,93.0,East,False
+East,Sikkim,27.29281142638573,88.67805462332593,166.0,East,Sikkim,11.0,4.0,244.0,East,False
+East Garo Hills,Meghalaya,25.73544258859237,90.6342312158179,167.0,East Garo Hills,Meghalaya,17.0,2.0,294.0,East Garo Hills,False
+East Godavari,Andhra Pradesh,17.18974600301442,82.01176353754786,168.0,East Godavari,Andhra Pradesh,28.0,14.0,545.0,East Godavari,False
+East Kameng,Arunanchal Pradesh,27.44220353946208,92.96782650816384,169.0,East Kameng,Arunanchal Pradesh,12.0,3.0,247.0,East Kameng,False
+East Khasi Hills,Meghalaya,25.380630658554328,91.80074638377764,170.0,East Khasi Hills,Meghalaya,17.0,6.0,298.0,East Khasi Hills,False
+East Nimar,Madhya Pradesh,21.936677242903865,76.57140702522656,171.0,East Nimar,Madhya Pradesh,23.0,49.0,466.0,East Nimar,False
+East Siang,Arunanchal Pradesh,28.124358181605576,95.1632657043383,172.0,East Siang,Arunanchal Pradesh,12.0,7.0,251.0,East Siang,False
+Ernakulam,Kerala,10.057721564195829,76.4726820614902,173.0,Ernakulam,Kerala,32.0,8.0,595.0,Ernakulam,False
+Erode,Tamil Nadu,11.515430868611498,77.41423155135529,174.0,Erode,Tamil Nadu,33.0,9.0,610.0,Erode,False
+Etah,Uttar Pradesh,27.51217827390708,78.71317469356927,175.0,Etah,Uttar Pradesh,9.0,70.0,201.0,Etah,False
+Etawah,Uttar Pradesh,26.75955954369212,79.0965122931306,176.0,Etawah,Uttar Pradesh,9.0,30.0,161.0,Etawah,False
+Faizabad,Uttar Pradesh,26.659053359726403,81.99234029010276,177.0,Faizabad,Uttar Pradesh,9.0,46.0,177.0,Faizabad,False
+Faridabad,Haryana,28.33280856399001,77.35473911853194,178.0,Faridabad,Haryana,6.0,20.0,88.0,Faridabad,False
+Faridkot,Punjab,30.611090906732606,74.77906370098138,179.0,Faridkot,Punjab,3.0,11.0,45.0,Faridkot,False
+Farrukhabad,Uttar Pradesh,27.43062066920291,79.46126588927588,180.0,Farrukhabad,Uttar Pradesh,9.0,28.0,159.0,Farrukhabad,False
+Fatehabad,Haryana,29.576648833370257,75.57926687875978,181.0,Fatehabad,Haryana,6.0,10.0,78.0,Fatehabad,False
+Fatehgarh Sahib,Punjab,30.632375780832103,76.36531097716012,182.0,Fatehgarh Sahib,Punjab,3.0,6.0,40.0,Fatehgarh Sahib,False
+Fatehpur,Uttar Pradesh,25.873650301704632,80.80676316840332,183.0,Fatehpur,Uttar Pradesh,9.0,41.0,172.0,Fatehpur,False
+Firozabad,Uttar Pradesh,27.18084819684771,78.5398330511929,184.0,Firozabad,Uttar Pradesh,9.0,16.0,147.0,Firozabad,False
+Firozpur,Punjab,30.56246427974126,74.40184714588969,185.0,Firozpur,Punjab,3.0,9.0,43.0,Firozpur,False
+Gadag,Karnataka,15.431542288170805,75.66626897896019,186.0,Gadag,Karnataka,29.0,7.0,561.0,Gadag,False
+Gajapati,Odisha,19.173896573717432,84.16069469834926,187.0,Gajapati,Odisha,21.0,20.0,389.0,Gajapati,False
+Ganderbal,Jammu & Kashmir,34.29473158019875,75.19987499981802,188.0,Ganderbal,Jammu & Kashmir,1.0,11.0,11.0,Ganderbal,False
+Gandhinagar,Gujarat,23.25518556599645,72.69231730342706,189.0,Gandhinagar,Gujarat,24.0,6.0,473.0,Gandhinagar,False
+Ganganagar,Rajasthan,29.39732092830364,73.56379115177859,190.0,Ganganagar,Rajasthan,8.0,1.0,99.0,Ganganagar,False
+Ganjam,Odisha,19.62770637431872,84.67105879106221,191.0,Ganjam,Odisha,21.0,19.0,388.0,Ganjam,False
+Garhchiroli,Maharashtra,19.78757022126696,80.24116420349455,192.0,Garhchiroli,Maharashtra,27.0,12.0,508.0,Garhchiroli,False
+Garhwa,Jharkhand,24.101791851258408,83.69916451326351,193.0,Garhwa,Jharkhand,20.0,1.0,346.0,Garhwa,False
+Garhwal,Uttarakhand,29.893428731630483,78.76963203550359,194.0,Garhwal,Uttarakhand,5.0,6.0,61.0,Garhwal,False
+Gautam Buddha Nagar,Uttar Pradesh,28.398239110880485,77.54697488960794,195.0,Gautam Buddha Nagar,Uttar Pradesh,9.0,10.0,141.0,Gautam Buddha Nagar,False
+Gaya,Bihar,24.699512675155106,84.93615017884639,196.0,Gaya,Bihar,10.0,34.0,236.0,Gaya,False
+Ghaziabad,Uttar Pradesh,28.73900053018485,77.70668502995807,372.0,Meerut,Uttar Pradesh,9.0,7.0,138.0,Meerut,False
+Ghazipur,Uttar Pradesh,25.622636201155924,83.55621150000691,198.0,Ghazipur,Uttar Pradesh,9.0,64.0,195.0,Ghazipur,False
+Giridih,Jharkhand,24.296898266377458,86.11021677253258,199.0,Giridih,Jharkhand,20.0,4.0,349.0,Giridih,False
+Goalpara,Assam,26.05552507494892,90.6054542370552,200.0,Goalpara,Assam,18.0,3.0,302.0,Goalpara,False
+Godda,Jharkhand,24.85994234400284,87.31216131078797,201.0,Godda,Jharkhand,20.0,6.0,351.0,Godda,False
+Golaghat,Assam,26.45813796348384,93.83328362857884,202.0,Golaghat,Assam,18.0,14.0,313.0,Golaghat,False
+Gonda,Uttar Pradesh,27.084388434890176,82.02553410343072,203.0,Gonda,Uttar Pradesh,9.0,52.0,183.0,Gonda,False
+Gondiya,Maharashtra,21.14961360249085,80.20535569167437,204.0,Gondiya,Maharashtra,27.0,11.0,507.0,Gondiya,False
+Gopalganj,Bihar,26.442866055026936,84.377193646571,205.0,Gopalganj,Bihar,10.0,15.0,217.0,Gopalganj,False
+Gorakhpur,Uttar Pradesh,26.65834356548141,83.3613742508205,206.0,Gorakhpur,Uttar Pradesh,9.0,57.0,188.0,Gorakhpur,False
+Gulbarga,Karnataka,17.260627459885935,76.869523046487,207.0,Gulbarga,Karnataka,29.0,25.0,579.0,Gulbarga,False
+Gumla,Jharkhand,23.102690323497463,84.53454019272388,208.0,Gumla,Jharkhand,20.0,21.0,366.0,Gumla,False
+Guna,Madhya Pradesh,24.55567287548176,77.20081515293091,209.0,Guna,Madhya Pradesh,23.0,41.0,458.0,Guna,False
+Guntur,Andhra Pradesh,16.299165499115485,80.0913534862821,210.0,Guntur,Andhra Pradesh,28.0,17.0,548.0,Guntur,False
+Gurdaspur,Punjab,32.02493718927355,75.38675526417795,211.0,Gurdaspur,Punjab,3.0,1.0,35.0,Gurdaspur,False
+Gurgaon,Haryana,28.368144564918847,76.9407656315644,212.0,Gurgaon,Haryana,6.0,18.0,86.0,Gurgaon,False
+Gwalior,Madhya Pradesh,26.011724243247645,78.21950254565837,213.0,Gwalior,Madhya Pradesh,23.0,4.0,421.0,Gwalior,False
+Hailakandi,Assam,24.49448880597316,92.58881099605132,214.0,Hailakandi,Assam,18.0,19.0,318.0,Hailakandi,False
+Hamirpur,Himachal Pradesh,31.668222076078692,76.5257551537997,215.0,Hamirpur,Himachal Pradesh,2.0,6.0,28.0,Hamirpur,False
+Hamirpur,Uttar Pradesh,25.73186817420498,79.87898954757091,216.0,Hamirpur,Uttar Pradesh,9.0,37.0,168.0,Hamirpur,False
+Hanumangarh,Rajasthan,29.272567385254995,74.5485408370137,217.0,Hanumangarh,Rajasthan,8.0,2.0,100.0,Hanumangarh,False
+Haora,West Bengal,22.526187960997625,88.06754195700587,218.0,Haora,West Bengal,19.0,15.0,341.0,Haora,False
+Harda,Madhya Pradesh,22.234444219612307,77.12106281223443,219.0,Harda,Madhya Pradesh,23.0,31.0,448.0,Harda,False
+Hardoi,Uttar Pradesh,27.329297308569263,80.16230913659167,220.0,Hardoi,Uttar Pradesh,9.0,24.0,155.0,Hardoi,False
+Hardwar,Uttarakhand,29.87211579051889,78.00116173333038,221.0,Hardwar,Uttarakhand,5.0,13.0,68.0,Hardwar,False
+Hassan,Karnataka,12.99564358370708,76.10910504376825,222.0,Hassan,Karnataka,29.0,20.0,574.0,Hassan,False
+Mahamaya Nagar,Uttar Pradesh,27.577788878653053,78.16168192744408,223.0,Mahamaya Nagar,Uttar Pradesh,9.0,13.0,144.0,Mahamaya Nagar,False
+Haveri,Karnataka,14.738353141746504,75.41764844693677,224.0,Haveri,Karnataka,29.0,10.0,564.0,Haveri,False
+Hazaribagh,Jharkhand,23.99029718634408,85.41327929500903,225.0,Hazaribagh,Jharkhand,20.0,15.0,360.0,Hazaribagh,False
+Hingoli,Maharashtra,19.61557692456841,77.11883948772433,226.0,Hingoli,Maharashtra,27.0,16.0,512.0,Hingoli,False
+Hisar,Haryana,29.2153861102673,75.81562230936903,227.0,Hisar,Haryana,6.0,12.0,80.0,Hisar,False
+Hoshangabad,Madhya Pradesh,22.58855946899229,77.98914606992176,228.0,Hoshangabad,Madhya Pradesh,23.0,32.0,449.0,Hoshangabad,False
+Hoshiarpur,Punjab,31.6268900548406,75.85842016082704,229.0,Hoshiarpur,Punjab,3.0,4.0,38.0,Hoshiarpur,False
+Hugli,West Bengal,22.884891512806988,88.0799001370785,230.0,Hugli,West Bengal,19.0,12.0,338.0,Hugli,False
+Hyderabad,Andhra Pradesh,17.389847568937473,78.46994133754635,231.0,Hyderabad,Andhra Pradesh,28.0,5.0,536.0,Hyderabad,False
+Idukki,Kerala,9.882501926026976,77.02741767278914,232.0,Idukki,Kerala,32.0,9.0,596.0,Idukki,False
+Imphal East,Manipur,24.816685476904112,93.9421363342384,233.0,Imphal East,Manipur,14.0,7.0,278.0,Imphal East,False
+Imphal West,Manipur,24.681674186135552,93.15440232773364,234.0,Imphal West,Manipur,14.0,6.0,277.0,Imphal West,False
+Indore,Madhya Pradesh,22.713417592069053,75.782124162149,235.0,Indore,Madhya Pradesh,23.0,22.0,439.0,Indore,False
+Jabalpur,Madhya Pradesh,23.23286846696339,79.97659170234706,236.0,Jabalpur,Madhya Pradesh,23.0,34.0,451.0,Jabalpur,False
+Jagatsinghapur,Odisha,20.22190480410213,86.34364880675533,237.0,Jagatsinghapur,Odisha,21.0,11.0,380.0,Jagatsinghapur,False
+Jaintia Hills,Meghalaya,25.3687011991604,92.38105086651876,238.0,Jaintia Hills,Meghalaya,17.0,7.0,299.0,Jaintia Hills,False
+Jaipur,Rajasthan,26.98180747949866,75.7247382152575,239.0,Jaipur,Rajasthan,8.0,12.0,110.0,Jaipur,False
+Jaisalmer,Rajasthan,27.08016941049488,70.90366983199807,240.0,Jaisalmer,Rajasthan,8.0,16.0,114.0,Jaisalmer,False
+Jajapur,Odisha,20.85613046682465,86.15208576513442,241.0,Jajapur,Odisha,21.0,13.0,382.0,Jajapur,False
+Jalandhar,Punjab,31.213041964069117,75.56662676045428,242.0,Jalandhar,Punjab,3.0,3.0,37.0,Jalandhar,False
+Jalaun,Uttar Pradesh,26.09150292994366,79.3873866010215,243.0,Jalaun,Uttar Pradesh,9.0,34.0,165.0,Jalaun,False
+Jalgaon,Maharashtra,20.936211635826385,75.49014783667577,244.0,Jalgaon,Maharashtra,27.0,3.0,499.0,Jalgaon,False
+Jalna,Maharashtra,19.819116642724985,75.9817862087279,245.0,Jalna,Maharashtra,27.0,18.0,514.0,Jalna,False
+Jalor,Rajasthan,25.0987345652294,72.21260209462868,246.0,Jalor,Rajasthan,8.0,18.0,116.0,Jalor,False
+Jalpaiguri,West Bengal,26.66074988460327,89.08434148060309,247.0,Jalpaiguri,West Bengal,19.0,2.0,328.0,Jalpaiguri,False
+Jammu,Jammu & Kashmir,32.76280060708844,74.78832563907386,248.0,Jammu,Jammu & Kashmir,1.0,21.0,21.0,Jammu,False
+Jamnagar,Gujarat,22.25288754946767,69.91391984832588,249.0,Jamnagar,Gujarat,24.0,10.0,477.0,Jamnagar,False
+Jamtara,Jharkhand,23.976982127013365,86.91718181512412,250.0,Jamtara,Jharkhand,20.0,18.0,363.0,Jamtara,False
+Jamui,Bihar,24.784142510061955,86.29511893560704,251.0,Jamui,Bihar,10.0,36.0,238.0,Jamui,False
+Janjgir-champa,Chhattisgarh,21.926413194145542,82.73785975222533,252.0,Janjgir-champa,Chhattisgarh,22.0,6.0,405.0,Janjgir-champa,False
+Jashpur,Chhattisgarh,22.800991683649567,83.8663955163114,253.0,Jashpur,Chhattisgarh,22.0,3.0,402.0,Jashpur,False
+Jaunpur,Uttar Pradesh,25.746367997509623,82.57588745024584,254.0,Jaunpur,Uttar Pradesh,9.0,63.0,194.0,Jaunpur,False
+Jhabua,Madhya Pradesh,22.89089201242864,74.67186087884949,255.0,Jhabua,Madhya Pradesh,23.0,47.0,464.0,Jhabua,False
+Jhajjar,Haryana,28.60492195078375,76.6494858374474,256.0,Jhajjar,Haryana,6.0,15.0,83.0,Jhajjar,False
+Jhalawar,Rajasthan,24.329505737606368,76.19705750000965,257.0,Jhalawar,Rajasthan,8.0,31.0,129.0,Jhalawar,False
+Jhansi,Uttar Pradesh,25.50591996885148,78.95406946266006,258.0,Jhansi,Uttar Pradesh,9.0,35.0,166.0,Jhansi,False
+Jharsuguda,Odisha,21.80610113133833,83.95484066384587,259.0,Jharsuguda,Odisha,21.0,2.0,371.0,Jharsuguda,False
+Jhunjhunun,Rajasthan,28.092435700457425,75.55243921083792,260.0,Jhunjhunun,Rajasthan,8.0,5.0,103.0,Jhunjhunun,False
+Jodhpur,Rajasthan,26.75322082312185,72.7872069237349,261.0,Jodhpur,Rajasthan,8.0,15.0,113.0,Jodhpur,False
+Jorhat,Assam,26.79433263369654,94.25658520536736,262.0,Jorhat,Assam,18.0,13.0,312.0,Jorhat,False
+Junagadh,Gujarat,21.22205762865324,70.5537657584558,263.0,Junagadh,Gujarat,24.0,12.0,479.0,Junagadh,False
+Jyotiba Phule Nagar,Uttar Pradesh,28.81391703570316,78.32936313430292,264.0,Jyotiba Phule Nagar,Uttar Pradesh,9.0,6.0,137.0,Jyotiba Phule Nagar,False
+Kachchh,Gujarat,23.63026199869576,69.96032527592872,265.0,Kachchh,Gujarat,24.0,1.0,468.0,Kachchh,False
+Kaimur (bhabua),Bihar,24.991684811852146,83.60669563113457,266.0,Kaimur (bhabua),Bihar,10.0,31.0,233.0,Kaimur (bhabua),False
+Kaithal,Haryana,29.81436374967141,76.41819377484244,267.0,Kaithal,Haryana,6.0,5.0,73.0,Kaithal,False
+Kalahandi,Odisha,19.868374919731988,83.10953909250507,268.0,Kalahandi,Odisha,21.0,26.0,395.0,Kalahandi,False
+Kamrup,Assam,26.11846887845927,91.40640312796889,269.0,Kamrup,Assam,18.0,22.0,321.0,Kamrup,False
+Kamrup Metropolitan,Assam,26.09009592193892,91.82166473390552,482.0,Ri Bhoi,Meghalaya,17.0,5.0,297.0,Ri Bhoi,False
+Kancheepuram,Tamil Nadu,12.695441577469316,79.94788810187835,271.0,Kancheepuram,Tamil Nadu,33.0,3.0,604.0,Kancheepuram,False
+Kandhamal,Odisha,20.12954552174811,84.0473657396127,272.0,Kandhamal,Odisha,21.0,21.0,390.0,Kandhamal,False
+Kangra,Himachal Pradesh,32.10914743823388,76.31779017391075,273.0,Kangra,Himachal Pradesh,2.0,2.0,24.0,Kangra,False
+Uttar Bastar Kanker,Chhattisgarh,20.14811449401272,81.12942201635627,274.0,Uttar Bastar Kanker,Chhattisgarh,22.0,14.0,413.0,Uttar Bastar Kanker,False
+Kannauj,Uttar Pradesh,27.012110978247307,79.68790750038552,275.0,Kannauj,Uttar Pradesh,9.0,29.0,160.0,Kannauj,False
+Kanniyakumari,Tamil Nadu,8.306991858415305,77.36141951913035,276.0,Kanniyakumari,Tamil Nadu,33.0,28.0,629.0,Kanniyakumari,False
+Kannur,Kerala,12.0007365536255,75.52619692815145,277.0,Kannur,Kerala,32.0,2.0,589.0,Kannur,False
+Kanpur Dehat,Uttar Pradesh,26.4451621493664,79.8571452722694,278.0,Kanpur Dehat,Uttar Pradesh,9.0,32.0,163.0,Kanpur Dehat,False
+Kanpur Nagar,Uttar Pradesh,26.38131685347301,80.21566753411236,279.0,Kanpur Nagar,Uttar Pradesh,9.0,33.0,164.0,Kanpur Nagar,False
+Kansiram Nagar,Uttar Pradesh,27.777366371476027,78.84527719588819,280.0,Kansiram Nagar,Uttar Pradesh,9.0,71.0,202.0,Kansiram Nagar,False
+Kapurthala,Punjab,31.35431514292984,75.40311257127601,281.0,Kapurthala,Punjab,3.0,2.0,36.0,Kapurthala,False
+Karbi Anglong,Assam,26.06635570750082,93.14917624324308,282.0,Karbi Anglong,Assam,18.0,15.0,314.0,Karbi Anglong,False
+Kargil,Jammu & Kashmir,33.970558333413194,76.48230172437019,283.0,Kargil,Jammu & Kashmir,1.0,4.0,4.0,Kargil,False
+Karimganj,Assam,24.58169429551487,92.37747600551424,284.0,Karimganj,Assam,18.0,18.0,317.0,Karimganj,False
+Karimnagar,Andhra Pradesh,18.55014361887958,79.24084326413325,285.0,Karimnagar,Andhra Pradesh,28.0,3.0,534.0,Karimnagar,False
+Karnal,Haryana,29.68777123352163,76.88484282450474,286.0,Karnal,Haryana,6.0,6.0,74.0,Karnal,False
+Karur,Tamil Nadu,10.843045649079375,78.13307075759155,287.0,Karur,Tamil Nadu,33.0,12.0,613.0,Karur,False
+Kasaragod,Kerala,12.46294534274635,75.15363942458535,288.0,Kasaragod,Kerala,32.0,1.0,588.0,Kasaragod,False
+Kathua,Jammu & Kashmir,32.566533987212054,75.59394776179933,289.0,Kathua,Jammu & Kashmir,1.0,7.0,7.0,Kathua,False
+Katihar,Bihar,25.54564966119044,87.64504076660505,290.0,Katihar,Bihar,10.0,10.0,212.0,Katihar,False
+Katni,Madhya Pradesh,23.75452081699525,80.40154173596,291.0,Katni,Madhya Pradesh,23.0,33.0,450.0,Katni,False
+Kaushambi,Uttar Pradesh,25.488920223410712,81.45353508090317,292.0,Kaushambi,Uttar Pradesh,9.0,43.0,174.0,Kaushambi,False
+Kendrapara,Odisha,20.553274164267645,86.60976504989374,293.0,Kendrapara,Odisha,21.0,10.0,379.0,Kendrapara,False
+Kendujhar,Odisha,21.537873578073587,85.70480854955886,294.0,Kendujhar,Odisha,21.0,6.0,375.0,Kendujhar,False
+Khagaria,Bihar,25.51231270210454,86.60307882435517,295.0,Khagaria,Bihar,10.0,21.0,223.0,Khagaria,False
+Khammam,Andhra Pradesh,17.598035711027418,80.68744205434682,296.0,Khammam,Andhra Pradesh,28.0,10.0,541.0,Khammam,False
+Kheda,Gujarat,22.87658977899373,73.01695060659075,297.0,Kheda,Gujarat,24.0,16.0,483.0,Kheda,False
+Kheri,Uttar Pradesh,28.123297766024205,80.6670420227486,298.0,Kheri,Uttar Pradesh,9.0,22.0,153.0,Kheri,False
+Khordha,Odisha,20.090257201604494,85.51163263484555,299.0,Khordha,Odisha,21.0,17.0,386.0,Khordha,False
+Khunti,Jharkhand,22.997904278781263,85.27458684808457,300.0,Khunti,Jharkhand,20.0,20.0,365.0,Khunti,False
+Kinnaur,Himachal Pradesh,31.597567999405893,78.41250812599498,301.0,Kinnaur,Himachal Pradesh,2.0,12.0,34.0,Kinnaur,False
+Kiphire,Nagaland,25.844971282316376,94.82509964793957,302.0,Kiphire,Nagaland,13.0,9.0,269.0,Kiphire,False
+Kishanganj,Bihar,26.295759728044786,87.93533192091031,303.0,Kishanganj,Bihar,10.0,8.0,210.0,Kishanganj,False
+Kishtwar,Jammu & Kashmir,33.53085592613648,76.014172087542,304.0,Kishtwar,Jammu & Kashmir,1.0,18.0,18.0,Kishtwar,False
+Koch Bihar,West Bengal,26.29127656410008,89.34352130235655,305.0,Koch Bihar,West Bengal,19.0,3.0,329.0,Koch Bihar,False
+Kodagu,Karnataka,12.324602664221596,75.80323052497775,306.0,Kodagu,Karnataka,29.0,22.0,576.0,Kodagu,False
+Kodarma,Jharkhand,24.43730294876381,85.59564206328578,307.0,Kodarma,Jharkhand,20.0,3.0,348.0,Kodarma,False
+Kohima,Nagaland,25.78124287624292,94.1291253839838,308.0,Kohima,Nagaland,13.0,10.0,270.0,Kohima,False
+Kokrajhar,Assam,26.51493251773877,90.13073376182352,309.0,Kokrajhar,Assam,18.0,1.0,300.0,Kokrajhar,False
+Kolar,Karnataka,13.13955019351845,78.21773403691395,310.0,Kolar,Karnataka,29.0,27.0,581.0,Kolar,False
+Kolasib,Mizoram,24.19814082097141,92.72695819369956,311.0,Kolasib,Mizoram,15.0,2.0,282.0,Kolasib,False
+Kolhapur,Maharashtra,16.470608900934657,74.15966934197594,312.0,Kolhapur,Maharashtra,27.0,34.0,530.0,Kolhapur,False
+Kolkata,West Bengal,22.555268633706365,88.35584319659445,313.0,Kolkata,West Bengal,19.0,16.0,342.0,Kolkata,False
+Kollam,Kerala,8.961025821462396,76.87485887622405,314.0,Kollam,Kerala,32.0,13.0,600.0,Kollam,False
+Koppal,Karnataka,15.56202585226742,76.22186628256844,315.0,Koppal,Karnataka,29.0,6.0,560.0,Koppal,False
+Koraput,Odisha,18.816969397781,82.72124930369907,316.0,Koraput,Odisha,21.0,29.0,398.0,Koraput,False
+Korba,Chhattisgarh,22.532781088623008,82.61176755530155,317.0,Korba,Chhattisgarh,22.0,5.0,404.0,Korba,False
+Koriya,Chhattisgarh,23.46879423494693,82.23693604420993,318.0,Koriya,Chhattisgarh,22.0,1.0,400.0,Koriya,False
+Kota,Rajasthan,25.125400796888133,76.12963444858991,319.0,Kota,Rajasthan,8.0,29.0,127.0,Kota,False
+Kottayam,Kerala,9.637118909983853,76.6509053401052,320.0,Kottayam,Kerala,32.0,10.0,597.0,Kottayam,False
+Kozhikode,Kerala,11.484918039192344,75.83432695770139,321.0,Kozhikode,Kerala,32.0,4.0,591.0,Kozhikode,False
+Krishna,Andhra Pradesh,16.563444432316395,80.80036010594357,322.0,Krishna,Andhra Pradesh,28.0,16.0,547.0,Krishna,False
+Krishnagiri,Tamil Nadu,12.489215716142075,78.03266405878573,323.0,Krishnagiri,Tamil Nadu,33.0,30.0,631.0,Krishnagiri,False
+Kulgam,Jammu & Kashmir,33.58828851442323,74.86060413806504,324.0,Kulgam,Jammu & Kashmir,1.0,15.0,15.0,Kulgam,False
+Kullu,Himachal Pradesh,31.905447131066225,77.39997899800112,325.0,Kullu,Himachal Pradesh,2.0,4.0,26.0,Kullu,False
+Kupwara,Jammu & Kashmir,34.53223123331655,74.26623385899973,326.0,Kupwara,Jammu & Kashmir,1.0,1.0,1.0,Kupwara,False
+Kurnool,Andhra Pradesh,15.534153404595813,78.00614686117109,327.0,Kurnool,Andhra Pradesh,28.0,21.0,552.0,Kurnool,False
+Kurukshetra,Haryana,30.045160137477147,76.78623059536285,328.0,Kurukshetra,Haryana,6.0,4.0,72.0,Kurukshetra,False
+Kurung Kumey,Arunanchal Pradesh,28.0002411876536,93.39228286128036,329.0,Kurung Kumey,Arunanchal Pradesh,12.0,12.0,256.0,Kurung Kumey,False
+Kushinagar,Uttar Pradesh,26.86205702283202,83.93475876377373,330.0,Kushinagar,Uttar Pradesh,9.0,58.0,189.0,Kushinagar,False
+Lahul & Spiti,Himachal Pradesh,32.48197497728735,77.61497148830743,331.0,Lahul & Spiti,Himachal Pradesh,2.0,3.0,25.0,Lahul & Spiti,False
+Lakhimpur,Assam,27.16923282613617,94.12595015927764,332.0,Lakhimpur,Assam,18.0,8.0,307.0,Lakhimpur,False
+Lakhisarai,Bihar,25.15556021091655,86.13117139923087,333.0,Lakhisarai,Bihar,10.0,25.0,227.0,Lakhisarai,False
+Lalitpur,Uttar Pradesh,24.654013391177497,78.56173928776681,334.0,Lalitpur,Uttar Pradesh,9.0,36.0,167.0,Lalitpur,False
+Latehar,Jharkhand,23.718064722164726,84.44337918150194,335.0,Latehar,Jharkhand,20.0,14.0,359.0,Latehar,False
+Latur,Maharashtra,18.36091442819737,76.77517499050012,336.0,Latur,Maharashtra,27.0,28.0,524.0,Latur,False
+Lawangtlai,Mizoram,22.383917056701797,92.71318521468076,337.0,Lawangtlai,Mizoram,15.0,7.0,287.0,Lawangtlai,False
+Leh (ladakh),Jammu & Kashmir,34.35287511206887,78.43784013603417,338.0,Leh (ladakh),Jammu & Kashmir,1.0,3.0,3.0,Leh (ladakh),False
+Lohardaga,Jharkhand,23.475777850486462,84.66999310844318,339.0,Lohardaga,Jharkhand,20.0,11.0,356.0,Lohardaga,False
+Lohit,Arunanchal Pradesh,27.84054106767147,96.19523260920177,340.0,Lohit,Arunanchal Pradesh,12.0,15.0,259.0,Lohit,False
+Longleng,Nagaland,26.555536939133443,94.8002900559588,341.0,Longleng,Nagaland,13.0,8.0,268.0,Longleng,False
+Lower Dibang Valley,Arunanchal Pradesh,28.3731653015519,95.88056465501512,342.0,Lower Dibang Valley,Arunanchal Pradesh,12.0,14.0,258.0,Lower Dibang Valley,False
+Lower Subansiri,Arunanchal Pradesh,27.62579521155993,93.9392155042499,343.0,Lower Subansiri,Arunanchal Pradesh,12.0,11.0,255.0,Lower Subansiri,False
+Lucknow,Uttar Pradesh,26.84188578242896,80.90664223673434,344.0,Lucknow,Uttar Pradesh,9.0,26.0,157.0,Lucknow,False
+Ludhiana,Punjab,30.80893120669761,75.83817733310477,345.0,Ludhiana,Punjab,3.0,7.0,41.0,Ludhiana,False
+Lunglei,Mizoram,22.97233277137314,92.72249216825008,346.0,Lunglei,Mizoram,15.0,6.0,286.0,Lunglei,False
+Madhepura,Bihar,25.826340977714743,86.8962219427907,347.0,Madhepura,Bihar,10.0,11.0,213.0,Madhepura,False
+Madhubani,Bihar,26.40587155026835,86.21786568796887,348.0,Madhubani,Bihar,10.0,5.0,207.0,Madhubani,False
+Madurai,Tamil Nadu,9.921064690611724,78.0063573729763,349.0,Madurai,Tamil Nadu,33.0,22.0,623.0,Madurai,False
+Maharajganj,Uttar Pradesh,27.20277624011486,83.53327931384676,350.0,Maharajganj,Uttar Pradesh,9.0,56.0,187.0,Maharajganj,False
+Mahasamund,Chhattisgarh,21.2073108040822,82.61298656959127,351.0,Mahasamund,Chhattisgarh,22.0,12.0,411.0,Mahasamund,False
+Mahbubnagar,Andhra Pradesh,16.499344895274838,78.14607231784572,352.0,Mahbubnagar,Andhra Pradesh,28.0,7.0,538.0,Mahbubnagar,False
+Mahe,Puducherry,11.726678986786482,75.54153841460999,353.0,Mahe,Puducherry,34.0,3.0,636.0,Mahe,False
+Mahendragarh,Haryana,28.173295731001243,76.14319070915865,354.0,Mahendragarh,Haryana,6.0,16.0,84.0,Mahendragarh,False
+Mahesana,Gujarat,23.609582568666852,72.46213356264677,355.0,Mahesana,Gujarat,24.0,4.0,471.0,Mahesana,False
+Mahoba,Uttar Pradesh,25.344451011516465,79.69670212227508,356.0,Mahoba,Uttar Pradesh,9.0,38.0,169.0,Mahoba,False
+Mainpuri,Uttar Pradesh,27.18077830430892,79.05903298633564,357.0,Mainpuri,Uttar Pradesh,9.0,17.0,148.0,Mainpuri,False
+Malappuram,Kerala,11.132240220709004,76.15583838075975,358.0,Malappuram,Kerala,32.0,5.0,592.0,Malappuram,False
+Maldah,West Bengal,25.13709718768365,88.09227575922397,359.0,Maldah,West Bengal,19.0,6.0,332.0,Maldah,False
+Malkangiri,Odisha,18.258457131832834,81.95650595511312,360.0,Malkangiri,Odisha,21.0,30.0,399.0,Malkangiri,False
+Mamit,Mizoram,23.75464203498639,92.46715648164472,361.0,Mamit,Mizoram,15.0,1.0,281.0,Mamit,False
+Mandi,Himachal Pradesh,31.638973135342585,76.99271840444202,362.0,Mandi,Himachal Pradesh,2.0,5.0,27.0,Mandi,False
+Mandla,Madhya Pradesh,22.640993062598973,80.51324646836488,363.0,Mandla,Madhya Pradesh,23.0,37.0,454.0,Mandla,False
+Mandsaur,Madhya Pradesh,24.21192462293172,75.40582884544511,364.0,Mandsaur,Madhya Pradesh,23.0,16.0,433.0,Mandsaur,False
+Mandya,Karnataka,12.610552209884846,76.79788547811282,365.0,Mandya,Karnataka,29.0,19.0,573.0,Mandya,False
+Mansa,Punjab,29.90867266189029,75.43899595481027,366.0,Mansa,Punjab,3.0,13.0,47.0,Mansa,False
+Marigaon,Assam,26.284901076631098,92.28199451282228,367.0,Marigaon,Assam,18.0,5.0,304.0,Marigaon,False
+Mathura,Uttar Pradesh,27.597253695804937,77.62755348211445,368.0,Mathura,Uttar Pradesh,9.0,14.0,145.0,Mathura,False
+Mau,Uttar Pradesh,26.043233887671143,83.56291446737659,369.0,Mau,Uttar Pradesh,9.0,61.0,192.0,Mau,False
+Mayurbhanj,Odisha,21.89593004975029,86.41109224981058,370.0,Mayurbhanj,Odisha,21.0,7.0,376.0,Mayurbhanj,False
+Medak,Andhra Pradesh,17.888322224706823,78.21581522545652,371.0,Medak,Andhra Pradesh,28.0,4.0,535.0,Medak,False
+Meerut,Uttar Pradesh,29.035925329119834,77.7939354254437,372.0,Meerut,Uttar Pradesh,9.0,7.0,138.0,Meerut,False
+Mewat,Haryana,27.982070539285164,77.0465286653312,373.0,Mewat,Haryana,6.0,19.0,87.0,Mewat,False
+Mirzapur,Uttar Pradesh,24.98569630698437,82.61930251358197,374.0,Mirzapur,Uttar Pradesh,9.0,68.0,199.0,Mirzapur,False
+Moga,Punjab,30.77036083964073,75.16805427570593,375.0,Moga,Punjab,3.0,8.0,42.0,Moga,False
+Mokokchung,Nagaland,26.472193406710574,94.5318098040121,376.0,Mokokchung,Nagaland,13.0,2.0,262.0,Mokokchung,False
+Mon,Nagaland,26.73140685518568,95.02168043883184,377.0,Mon,Nagaland,13.0,1.0,261.0,Mon,False
+Moradabad,Uttar Pradesh,28.776082353189626,78.70864419927035,378.0,Moradabad,Uttar Pradesh,9.0,4.0,135.0,Moradabad,False
+Morena,Madhya Pradesh,26.41435610917755,77.86929873448419,379.0,Morena,Madhya Pradesh,23.0,2.0,419.0,Morena,False
+Muktsar,Punjab,30.295165937457515,74.54101772545118,380.0,Muktsar,Punjab,3.0,10.0,44.0,Muktsar,False
+Mumbai,Maharashtra,18.95964652854592,72.8496237050775,381.0,Mumbai,Maharashtra,27.0,23.0,519.0,Mumbai,False
+Mumbai Suburban,Maharashtra,19.129627496175974,72.88506011300234,382.0,Mumbai Suburban,Maharashtra,27.0,22.0,518.0,Mumbai Suburban,False
+Munger,Bihar,25.210166609612163,86.5273371136645,383.0,Munger,Bihar,10.0,24.0,226.0,Munger,False
+Murshidabad,West Bengal,24.16176351923969,88.23100412667857,384.0,Murshidabad,West Bengal,19.0,7.0,333.0,Murshidabad,False
+Muzaffarnagar,Uttar Pradesh,29.43924276502965,77.59225817154332,385.0,Muzaffarnagar,Uttar Pradesh,9.0,2.0,133.0,Muzaffarnagar,False
+Muzaffarpur,Bihar,26.15129872827137,85.33073957762477,386.0,Muzaffarpur,Bihar,10.0,14.0,216.0,Muzaffarpur,False
+Mysore,Karnataka,12.20902171431795,76.44208522356945,387.0,Mysore,Karnataka,29.0,23.0,577.0,Mysore,False
+Nabarangapur,Odisha,19.58860369176664,82.33745497709708,388.0,Nabarangapur,Odisha,21.0,28.0,397.0,Nabarangapur,False
+Nadia,West Bengal,23.48368449966908,88.52140838266848,389.0,Nadia,West Bengal,19.0,10.0,336.0,Nadia,False
+Nagaon,Assam,26.22367486145208,92.84243198277969,282.0,Karbi Anglong,Assam,18.0,15.0,314.0,Karbi Anglong,False
+Nagaur,Rajasthan,27.065143551318336,74.18806175870432,391.0,Nagaur,Rajasthan,8.0,14.0,112.0,Nagaur,False
+Nagpur,Maharashtra,21.17695626673437,79.08746534037844,392.0,Nagpur,Maharashtra,27.0,9.0,505.0,Nagpur,False
+Nainital,Uttarakhand,29.313009001907563,79.45453483876669,393.0,Nainital,Uttarakhand,5.0,11.0,66.0,Nainital,False
+Nalanda,Bihar,25.220977931071484,85.4558733843292,394.0,Nalanda,Bihar,10.0,27.0,229.0,Nalanda,False
+Nalbari,Assam,26.36807663232914,91.38770460130266,395.0,Nalbari,Assam,18.0,24.0,323.0,Nalbari,False
+Nalgonda,Andhra Pradesh,17.068592804054425,79.28859014777487,396.0,Nalgonda,Andhra Pradesh,28.0,8.0,539.0,Nalgonda,False
+Namakkal,Tamil Nadu,11.316344153765447,78.13614739214886,397.0,Namakkal,Tamil Nadu,33.0,8.0,609.0,Namakkal,False
+Nanded,Maharashtra,19.11731932406889,77.62450537303735,398.0,Nanded,Maharashtra,27.0,15.0,511.0,Nanded,False
+Nandurbar,Maharashtra,21.550227683689247,74.21880402155203,399.0,Nandurbar,Maharashtra,27.0,1.0,497.0,Nandurbar,False
+Narayanpur,Chhattisgarh,19.604595516867786,81.08112912525077,400.0,Narayanpur,Chhattisgarh,22.0,16.0,415.0,Narayanpur,False
+Narmada,Gujarat,21.735660277944703,73.64748729257992,401.0,Narmada,Gujarat,24.0,20.0,487.0,Narmada,False
+Narsimhapur,Madhya Pradesh,22.934790821155,79.08730519866404,402.0,Narsimhapur,Madhya Pradesh,23.0,35.0,452.0,Narsimhapur,False
+Nashik,Maharashtra,20.260093811364023,74.07164291828809,403.0,Nashik,Maharashtra,27.0,20.0,516.0,Nashik,False
+Navsari,Gujarat,20.815313985741195,73.08963082303548,404.0,Navsari,Gujarat,24.0,23.0,490.0,Navsari,False
+Nawada,Bihar,24.81124766755069,85.59419998575333,405.0,Nawada,Bihar,10.0,35.0,237.0,Nawada,False
+Nayagarh,Odisha,20.213311726135863,84.99932117521844,406.0,Nayagarh,Odisha,21.0,16.0,385.0,Nayagarh,False
+Neemuch,Madhya Pradesh,24.606030268835536,75.14464675117601,407.0,Neemuch,Madhya Pradesh,23.0,15.0,432.0,Neemuch,False
+Sri Potti Sriramulu Nellore,Andhra Pradesh,14.427874983732284,79.73413283137594,408.0,Sri Potti Sriramulu Nellore,Andhra Pradesh,28.0,19.0,550.0,Sri Potti Sriramulu Nellore,False
+New Delhi,NCT of Delhi,28.610886398197064,77.21397139862047,409.0,New Delhi,NCT of Delhi,7.0,5.0,94.0,New Delhi,False
+Nizamabad,Andhra Pradesh,18.526534476729854,78.14401402105177,410.0,Nizamabad,Andhra Pradesh,28.0,2.0,533.0,Nizamabad,False
+North,NCT of Delhi,28.71058294081715,77.21153514731198,418.0,North West,NCT of Delhi,7.0,1.0,90.0,North West,False
+North,Sikkim,27.74381446838575,88.53246063099624,412.0,North,Sikkim,11.0,1.0,241.0,North,False
+North 24 Parganas,West Bengal,22.467109755355647,88.78009571359752,413.0,North 24 Parganas,West Bengal,19.0,11.0,337.0,North 24 Parganas,False
+Dima Hasao,Assam,25.377516898237683,93.03411535949785,414.0,Dima Hasao,Assam,18.0,16.0,315.0,Dima Hasao,False
+North East,NCT of Delhi,28.70770331201297,77.27397176304436,415.0,North East,NCT of Delhi,7.0,3.0,92.0,North East,False
+North Goa,Goa,15.552609128073884,73.9806323245723,416.0,North Goa,Goa,30.0,1.0,585.0,North Goa,False
+North Tripura,Tripura,24.130905974771206,92.15547190048405,417.0,North Tripura,Tripura,16.0,4.0,292.0,North Tripura,False
+North West,NCT of Delhi,28.76881498291095,77.0868702405544,418.0,North West,NCT of Delhi,7.0,1.0,90.0,North West,False
+Nuapada,Odisha,20.46639587080677,82.5782722882856,419.0,Nuapada,Odisha,21.0,25.0,394.0,Nuapada,False
+Osmanabad,Maharashtra,18.18976785393147,76.03839132550843,420.0,Osmanabad,Maharashtra,27.0,29.0,525.0,Osmanabad,False
+Pakur,Jharkhand,24.563487614654605,87.66411790938703,421.0,Pakur,Jharkhand,20.0,8.0,353.0,Pakur,False
+Palakkad,Kerala,10.794863908842858,76.5585480359929,422.0,Palakkad,Kerala,32.0,6.0,593.0,Palakkad,False
+Palamu,Jharkhand,24.202836507046648,84.16737327385135,423.0,Palamu,Jharkhand,20.0,13.0,358.0,Palamu,False
+Pali,Rajasthan,25.709708783140616,73.52137856554907,424.0,Pali,Rajasthan,8.0,20.0,118.0,Pali,False
+Palwal,Haryana,28.047629026933727,77.31833410150789,425.0,Palwal,Haryana,6.0,21.0,89.0,Palwal,False
+Panch Mahals,Gujarat,22.904913415438617,73.66426956585457,426.0,Panch Mahals,Gujarat,24.0,17.0,484.0,Panch Mahals,False
+Panchkula,Haryana,30.686134464155703,76.97757930121881,427.0,Panchkula,Haryana,6.0,1.0,69.0,Panchkula,False
+Panipat,Haryana,29.332667215418848,76.92632056674758,428.0,Panipat,Haryana,6.0,7.0,75.0,Panipat,False
+Panna,Madhya Pradesh,24.42155057940793,80.19187820843598,429.0,Panna,Madhya Pradesh,23.0,9.0,426.0,Panna,False
+Papum Pare,Arunanchal Pradesh,27.2892269102111,93.59696599658852,430.0,Papum Pare,Arunanchal Pradesh,12.0,4.0,248.0,Papum Pare,False
+Parbhani,Maharashtra,19.286343743944663,76.68269049879575,431.0,Parbhani,Maharashtra,27.0,17.0,513.0,Parbhani,False
+Pashchim Champaran,Bihar,27.079857770643883,84.34102084748974,432.0,Pashchim Champaran,Bihar,10.0,1.0,203.0,Pashchim Champaran,False
+Pashchim Medinipur,West Bengal,22.41506155153963,87.2670489230805,433.0,Pashchim Medinipur,West Bengal,19.0,18.0,344.0,Pashchim Medinipur,False
+Pashchimi Singhbhum,Jharkhand,22.42020422898322,85.5195179538001,434.0,Pashchimi Singhbhum,Jharkhand,20.0,23.0,368.0,Pashchimi Singhbhum,False
+Patan,Gujarat,23.769584420554818,71.75250932557587,435.0,Patan,Gujarat,24.0,3.0,470.0,Patan,False
+Pathanamthitta,Kerala,9.284104645119,76.92895793922483,436.0,Pathanamthitta,Kerala,32.0,12.0,599.0,Pathanamthitta,False
+Patiala,Punjab,30.282003763804635,76.35416898357691,437.0,Patiala,Punjab,3.0,14.0,48.0,Patiala,False
+Patna,Bihar,25.456584281498905,85.22209444964851,438.0,Patna,Bihar,10.0,28.0,230.0,Patna,False
+Perambalur,Tamil Nadu,11.273398882941931,78.89301341056515,439.0,Perambalur,Tamil Nadu,33.0,14.0,615.0,Perambalur,False
+Peren,Nagaland,25.499741458511327,93.623557368978,440.0,Peren,Nagaland,13.0,11.0,271.0,Peren,False
+Phek,Nagaland,25.66096067247234,94.52548687907596,441.0,Phek,Nagaland,13.0,6.0,266.0,Phek,False
+Pilibhit,Uttar Pradesh,28.54221891665948,79.96171276576548,442.0,Pilibhit,Uttar Pradesh,9.0,20.0,151.0,Pilibhit,False
+Pithoragarh,Uttarakhand,30.113424583659825,80.34780936447983,443.0,Pithoragarh,Uttarakhand,5.0,7.0,62.0,Pithoragarh,False
+Porbandar,Gujarat,21.653711751507597,69.77794361206826,444.0,Porbandar,Gujarat,24.0,11.0,478.0,Porbandar,False
+Prakasam,Andhra Pradesh,15.622056333535175,79.51578909913897,445.0,Prakasam,Andhra Pradesh,28.0,18.0,549.0,Prakasam,False
+Pratapgarh,Rajasthan,24.03004538002808,74.68090860044562,446.0,Pratapgarh,Rajasthan,8.0,33.0,131.0,Pratapgarh,False
+Pratapgarh,Uttar Pradesh,25.872738729695072,81.83151519935839,447.0,Pratapgarh,Uttar Pradesh,9.0,42.0,173.0,Pratapgarh,False
+Pudukkottai,Tamil Nadu,10.358820951774506,78.88118923712902,448.0,Pudukkottai,Tamil Nadu,33.0,20.0,621.0,Pudukkottai,False
+Pulwama,Jammu & Kashmir,33.933045575646574,75.03732256002563,449.0,Pulwama,Jammu & Kashmir,1.0,12.0,12.0,Pulwama,False
+Punch,Jammu & Kashmir,33.70208430921119,74.19915286783967,450.0,Punch,Jammu & Kashmir,1.0,5.0,5.0,Punch,False
+Pune,Maharashtra,18.571958559002308,74.06868605826122,451.0,Pune,Maharashtra,27.0,25.0,521.0,Pune,False
+Purba Champaran,Bihar,26.618846549684307,84.92465322101609,452.0,Purba Champaran,Bihar,10.0,2.0,204.0,Purba Champaran,False
+Purba Medinipur,West Bengal,22.02126304534368,87.77449010301791,453.0,Purba Medinipur,West Bengal,19.0,19.0,345.0,Purba Medinipur,False
+Purbi Singhbhum,Jharkhand,22.582972711538424,86.45251023911969,454.0,Purbi Singhbhum,Jharkhand,20.0,12.0,357.0,Purbi Singhbhum,False
+Puri,Odisha,19.876765938021297,85.72110283794973,455.0,Puri,Odisha,21.0,18.0,387.0,Puri,False
+Purnia,Bihar,25.81638758246312,87.40722903568826,456.0,Purnia,Bihar,10.0,9.0,211.0,Purnia,False
+Puruliya,West Bengal,23.277882396949973,86.41835252514461,457.0,Puruliya,West Bengal,19.0,14.0,340.0,Puruliya,False
+Rae Bareli,Uttar Pradesh,26.229197747346788,81.23137819999486,458.0,Rae Bareli,Uttar Pradesh,9.0,27.0,158.0,Rae Bareli,False
+Raichur,Karnataka,16.089794506892076,76.8932515792639,459.0,Raichur,Karnataka,29.0,5.0,559.0,Raichur,False
+Raigarh,Chhattisgarh,22.08720857810564,83.30613244880563,460.0,Raigarh,Chhattisgarh,22.0,4.0,403.0,Raigarh,False
+Raigarh,Maharashtra,18.518230569513143,73.21473750607714,461.0,Raigarh,Maharashtra,27.0,24.0,520.0,Raigarh,False
+Raipur,Chhattisgarh,21.074473062281164,82.17380954907124,351.0,Mahasamund,Chhattisgarh,22.0,12.0,411.0,Mahasamund,False
+Raisen,Madhya Pradesh,23.217501217870307,78.11851201397484,463.0,Raisen,Madhya Pradesh,23.0,29.0,446.0,Raisen,False
+Rajouri,Jammu & Kashmir,33.310431387162176,74.39874734731548,464.0,Rajouri,Jammu & Kashmir,1.0,6.0,6.0,Rajouri,False
+Rajgarh,Madhya Pradesh,23.86161501130195,76.73452167810404,465.0,Rajgarh,Madhya Pradesh,23.0,25.0,442.0,Rajgarh,False
+Rajkot,Gujarat,22.26458876811077,70.77527578106357,466.0,Rajkot,Gujarat,24.0,9.0,476.0,Rajkot,False
+Rajnandgaon,Chhattisgarh,21.04123256711383,80.81954204195648,467.0,Rajnandgaon,Chhattisgarh,22.0,9.0,408.0,Rajnandgaon,False
+Rajsamand,Rajasthan,25.217326988370186,73.89249441996132,468.0,Rajsamand,Rajasthan,8.0,25.0,123.0,Rajsamand,False
+Ramanagara,Karnataka,12.678846969663224,77.33642941016893,469.0,Ramanagara,Karnataka,29.0,30.0,584.0,Ramanagara,False
+Ramanathapuram,Tamil Nadu,9.44029630989567,78.67334797537963,470.0,Ramanathapuram,Tamil Nadu,33.0,25.0,626.0,Ramanathapuram,False
+Ramban,Jammu & Kashmir,33.32320336251573,75.18609323094137,471.0,Ramban,Jammu & Kashmir,1.0,17.0,17.0,Ramban,False
+Ramgarh,Jharkhand,23.63085876311567,85.56052439199028,472.0,Ramgarh,Jharkhand,20.0,16.0,361.0,Ramgarh,False
+Rampur,Uttar Pradesh,28.79591150504784,79.10550093640487,473.0,Rampur,Uttar Pradesh,9.0,5.0,136.0,Rampur,False
+Ranchi,Jharkhand,23.331653712960826,85.37060084548212,474.0,Ranchi,Jharkhand,20.0,19.0,364.0,Ranchi,False
+Rangareddy,Andhra Pradesh,17.288320869843687,78.17741528922036,475.0,Rangareddy,Andhra Pradesh,28.0,6.0,537.0,Rangareddy,False
+Ratlam,Madhya Pradesh,23.50151079922832,75.09032287992277,476.0,Ratlam,Madhya Pradesh,23.0,17.0,434.0,Ratlam,False
+Ratnagiri,Maharashtra,17.275116688014485,73.4566438424336,477.0,Ratnagiri,Maharashtra,27.0,32.0,528.0,Ratnagiri,False
+Rayagada,Odisha,19.362677884258627,83.51386434808104,478.0,Rayagada,Odisha,21.0,27.0,396.0,Rayagada,False
+Reasi,Jammu & Kashmir,33.2078344187655,74.82229212267634,479.0,Reasi,Jammu & Kashmir,1.0,20.0,20.0,Reasi,False
+Rewa,Madhya Pradesh,24.75555441444257,81.5895985605143,480.0,Rewa,Madhya Pradesh,23.0,13.0,430.0,Rewa,False
+Rewari,Haryana,28.23593126337201,76.54329981835691,481.0,Rewari,Haryana,6.0,17.0,85.0,Rewari,False
+Ri Bhoi,Meghalaya,25.870592951016107,91.89101503215772,482.0,Ri Bhoi,Meghalaya,17.0,5.0,297.0,Ri Bhoi,False
+Rohtak,Haryana,28.91465687308333,76.52914371086929,483.0,Rohtak,Haryana,6.0,14.0,82.0,Rohtak,False
+Rohtas,Bihar,24.97999280546966,84.02792009475542,484.0,Rohtas,Bihar,10.0,32.0,234.0,Rohtas,False
+Rudraprayag,Uttarakhand,30.530589704496453,79.05896475726026,485.0,Rudraprayag,Uttarakhand,5.0,3.0,58.0,Rudraprayag,False
+Rupnagar,Punjab,31.05982238130725,76.48638007337118,486.0,Rupnagar,Punjab,3.0,17.0,51.0,Rupnagar,False
+Sabar Kantha,Gujarat,23.660413723543726,73.16358183243692,487.0,Sabar Kantha,Gujarat,24.0,5.0,472.0,Sabar Kantha,False
+Sagar,Madhya Pradesh,23.849157268798123,78.75855222136799,488.0,Sagar,Madhya Pradesh,23.0,10.0,427.0,Sagar,False
+Saharanpur,Uttar Pradesh,29.950183887795166,77.54783104233367,489.0,Saharanpur,Uttar Pradesh,9.0,1.0,132.0,Saharanpur,False
+Saharsa,Bihar,25.81674142907687,86.58974708773215,490.0,Saharsa,Bihar,10.0,12.0,214.0,Saharsa,False
+Sahibganj,Jharkhand,25.008337346515063,87.67951448272927,491.0,Sahibganj,Jharkhand,20.0,7.0,352.0,Sahibganj,False
+Sahibzada Ajit Singh Nagar,Punjab,30.68122019866172,76.73766720216405,492.0,Sahibzada Ajit Singh Nagar,Punjab,3.0,18.0,52.0,Sahibzada Ajit Singh Nagar,False
+Saiha,Mizoram,22.377151190826982,93.01221123847638,493.0,Saiha,Mizoram,15.0,8.0,288.0,Saiha,False
+Salem,Tamil Nadu,11.674164304344565,78.22209430256984,494.0,Salem,Tamil Nadu,33.0,7.0,608.0,Salem,False
+Samastipur,Bihar,25.77716145668124,85.9036909789526,495.0,Samastipur,Bihar,10.0,19.0,221.0,Samastipur,False
+Samba,Jammu & Kashmir,32.575330828867855,75.10931369385263,496.0,Samba,Jammu & Kashmir,1.0,22.0,22.0,Samba,False
+Sambalpur,Odisha,21.452753678067737,84.28097252169219,497.0,Sambalpur,Odisha,21.0,3.0,372.0,Sambalpur,False
+Sangli,Maharashtra,17.112247302854797,74.76990605662759,498.0,Sangli,Maharashtra,27.0,35.0,531.0,Sangli,False
+Sangrur,Punjab,30.214402744332507,75.8685885380225,499.0,Sangrur,Punjab,3.0,19.0,53.0,Sangrur,False
+Sant Kabir Nagar,Uttar Pradesh,26.790586507915997,83.03482153503893,500.0,Sant Kabir Nagar,Uttar Pradesh,9.0,55.0,186.0,Sant Kabir Nagar,False
+Sant Ravi Das Nagar(bhadohi),Uttar Pradesh,25.348148531216037,82.4642288720746,501.0,Sant Ravi Das Nagar(bhadohi),Uttar Pradesh,9.0,67.0,198.0,Sant Ravi Das Nagar(bhadohi),False
+Saraikela-kharsawan,Jharkhand,22.84518941075869,85.95156147460781,502.0,Saraikela-kharsawan,Jharkhand,20.0,24.0,369.0,Saraikela-kharsawan,False
+Saran (chhapra),Bihar,25.904866537438924,84.82525027514029,503.0,Saran (chhapra),Bihar,10.0,17.0,219.0,Saran (chhapra),False
+Satara,Maharashtra,17.669098012528476,74.17380421264511,504.0,Satara,Maharashtra,27.0,31.0,527.0,Satara,False
+Satna,Madhya Pradesh,24.533661148091547,80.83323394523627,505.0,Satna,Madhya Pradesh,23.0,12.0,429.0,Satna,False
+Sehore,Madhya Pradesh,22.991794607179727,77.12846437981071,506.0,Sehore,Madhya Pradesh,23.0,28.0,445.0,Sehore,False
+Senapati,Manipur,25.197283490135582,94.04029546800376,507.0,Senapati,Manipur,14.0,1.0,272.0,Senapati,False
+Seoni,Madhya Pradesh,22.316774047171517,79.69042424178012,508.0,Seoni,Madhya Pradesh,23.0,39.0,456.0,Seoni,False
+Serchhip,Mizoram,23.26612355794472,92.9591567184276,509.0,Serchhip,Mizoram,15.0,5.0,285.0,Serchhip,False
+Shahdol,Madhya Pradesh,23.630116550262432,81.47254108517534,510.0,Shahdol,Madhya Pradesh,23.0,43.0,460.0,Shahdol,False
+Shahid Bhagat Singh Nagar,Punjab,31.1092143139934,76.15589893911441,511.0,Shahid Bhagat Singh Nagar,Punjab,3.0,5.0,39.0,Shahid Bhagat Singh Nagar,False
+Shahjahanpur,Uttar Pradesh,27.976366812659325,79.84527066115226,512.0,Shahjahanpur,Uttar Pradesh,9.0,21.0,152.0,Shahjahanpur,False
+Shajapur,Madhya Pradesh,23.58048796550548,76.34524915295981,513.0,Shajapur,Madhya Pradesh,23.0,19.0,436.0,Shajapur,False
+Sheikhpura,Bihar,25.13199908632439,85.82891512344676,514.0,Sheikhpura,Bihar,10.0,26.0,228.0,Sheikhpura,False
+Sheohar,Bihar,26.52708452460792,85.2899398957037,515.0,Sheohar,Bihar,10.0,3.0,205.0,Sheohar,False
+Sheopur,Madhya Pradesh,25.75307536826534,77.01067170795727,516.0,Sheopur,Madhya Pradesh,23.0,1.0,418.0,Sheopur,False
+Shimla,Himachal Pradesh,31.19760872798402,77.63257224599793,517.0,Shimla,Himachal Pradesh,2.0,11.0,33.0,Shimla,False
+Shimoga,Karnataka,14.043966578081516,75.22058944631068,518.0,Shimoga,Karnataka,29.0,14.0,568.0,Shimoga,False
+Shivpuri,Madhya Pradesh,25.363490773989525,77.81241758841821,519.0,Shivpuri,Madhya Pradesh,23.0,6.0,423.0,Shivpuri,False
+Shrawasti,Uttar Pradesh,27.65506859411303,81.88399576420385,520.0,Shrawasti,Uttar Pradesh,9.0,50.0,181.0,Shrawasti,False
+Shupiyan,Jammu & Kashmir,33.73070603278881,74.81871329916311,521.0,Shupiyan,Jammu & Kashmir,1.0,13.0,13.0,Shupiyan,False
+Sivasagar,Assam,27.007441747887167,94.82009681097624,522.0,Sivasagar,Assam,18.0,12.0,311.0,Sivasagar,False
+Siddharth Nagar,Uttar Pradesh,27.274216538604797,82.87346510786737,523.0,Siddharth Nagar,Uttar Pradesh,9.0,53.0,184.0,Siddharth Nagar,False
+Sidhi,Madhya Pradesh,24.220342218789245,81.83533712447758,524.0,Sidhi,Madhya Pradesh,23.0,45.0,462.0,Sidhi,False
+Sikar,Rajasthan,27.63729906718914,75.28738159556336,525.0,Sikar,Rajasthan,8.0,13.0,111.0,Sikar,False
+Simdega,Jharkhand,22.58019322488593,84.56640958202723,526.0,Simdega,Jharkhand,20.0,22.0,367.0,Simdega,False
+Sindhudurg,Maharashtra,16.134809164326814,73.73974706978734,527.0,Sindhudurg,Maharashtra,27.0,33.0,529.0,Sindhudurg,False
+Singrauli,Madhya Pradesh,24.2172481111239,82.42080247963035,528.0,Singrauli,Madhya Pradesh,23.0,46.0,463.0,Singrauli,False
+Sirmaur,Himachal Pradesh,30.66785299800797,77.43087515456031,529.0,Sirmaur,Himachal Pradesh,2.0,10.0,32.0,Sirmaur,False
+Sirohi,Rajasthan,24.759467835170664,72.7744025297636,530.0,Sirohi,Rajasthan,8.0,19.0,117.0,Sirohi,False
+Sirsa,Haryana,29.615285582407346,74.90134906399189,531.0,Sirsa,Haryana,6.0,11.0,79.0,Sirsa,False
+Sitamarhi,Bihar,26.57625846541692,85.53970653169847,532.0,Sitamarhi,Bihar,10.0,4.0,206.0,Sitamarhi,False
+Sitapur,Uttar Pradesh,27.518092512747973,80.85734560539035,533.0,Sitapur,Uttar Pradesh,9.0,23.0,154.0,Sitapur,False
+Sivaganga,Tamil Nadu,9.915253530126243,78.59867147886077,534.0,Sivaganga,Tamil Nadu,33.0,21.0,622.0,Sivaganga,False
+Siwan,Bihar,26.16088199783797,84.38956193734646,535.0,Siwan,Bihar,10.0,16.0,218.0,Siwan,False
+Solan,Himachal Pradesh,31.04317230499021,76.90946286391518,536.0,Solan,Himachal Pradesh,2.0,9.0,31.0,Solan,False
+Solapur,Maharashtra,17.790614721492272,75.4827731685244,537.0,Solapur,Maharashtra,27.0,30.0,526.0,Solapur,False
+Subarnapur,Odisha,20.93171165235164,83.82488875431314,538.0,Subarnapur,Odisha,21.0,23.0,392.0,Subarnapur,False
+Sonbhadra,Uttar Pradesh,24.402903483049386,83.05350177673091,539.0,Sonbhadra,Uttar Pradesh,9.0,69.0,200.0,Sonbhadra,False
+Sonipat,Haryana,29.06190014111641,76.87938534096541,540.0,Sonipat,Haryana,6.0,8.0,76.0,Sonipat,False
+Sonitpur,Assam,26.78255473565425,92.93937026540496,541.0,Sonitpur,Assam,18.0,7.0,306.0,Sonitpur,False
+South,NCT of Delhi,28.501394654787447,77.22739802394968,542.0,South,NCT of Delhi,7.0,9.0,98.0,South,False
+South,Sikkim,27.286954455475488,88.38784900610771,543.0,South,Sikkim,11.0,3.0,243.0,South,False
+South 24 Parganas,West Bengal,22.116716025444823,88.4169690128461,544.0,South 24 Parganas,West Bengal,19.0,17.0,343.0,South 24 Parganas,False
+South Garo Hills,Meghalaya,25.30171580566696,90.58528773934512,545.0,South Garo Hills,Meghalaya,17.0,3.0,295.0,South Garo Hills,False
+South Goa,Goa,15.196495525771583,74.11843386642978,546.0,South Goa,Goa,30.0,2.0,586.0,South Goa,False
+South Tripura,Tripura,23.3688983011342,91.60955038923812,547.0,South Tripura,Tripura,16.0,2.0,290.0,South Tripura,False
+South West,NCT of Delhi,28.572397908606263,77.02735929651321,548.0,South West,NCT of Delhi,7.0,8.0,97.0,South West,False
+Srikakulam,Andhra Pradesh,18.57901874796106,83.988365181763,549.0,Srikakulam,Andhra Pradesh,28.0,11.0,542.0,Srikakulam,False
+Srinagar,Jammu & Kashmir,34.17588414660437,74.91471404056583,550.0,Srinagar,Jammu & Kashmir,1.0,10.0,10.0,Srinagar,False
+Sultanpur,Uttar Pradesh,26.27517287261373,82.01996051702405,551.0,Sultanpur,Uttar Pradesh,9.0,48.0,179.0,Sultanpur,False
+Sundargarh,Odisha,22.08020891489643,84.51040697597435,497.0,Sambalpur,Odisha,21.0,3.0,372.0,Sambalpur,False
+Supaul,Bihar,26.24788304800902,86.80015810008584,553.0,Supaul,Bihar,10.0,6.0,208.0,Supaul,False
+Surat,Gujarat,21.266201084189262,73.07204845171886,554.0,Surat,Gujarat,24.0,25.0,492.0,Surat,False
+Surendranagar,Gujarat,22.799202778538675,71.5402310164304,555.0,Surendranagar,Gujarat,24.0,8.0,475.0,Surendranagar,False
+Surguja,Chhattisgarh,23.35912247603995,83.21946184685186,556.0,Surguja,Chhattisgarh,22.0,2.0,401.0,Surguja,False
+Tamenglong,Manipur,24.947913230826508,93.52744919022145,557.0,Tamenglong,Manipur,14.0,2.0,273.0,Tamenglong,False
+Tarn Taran,Punjab,31.337537620568064,74.84468349133215,558.0,Tarn Taran,Punjab,3.0,16.0,50.0,Tarn Taran,False
+Tawang,Arunanchal Pradesh,27.661985006293225,91.95363292857172,559.0,Tawang,Arunanchal Pradesh,12.0,1.0,245.0,Tawang,False
+Tehri Garhwal,Uttarakhand,30.437834904180736,78.53715426087815,560.0,Tehri Garhwal,Uttarakhand,5.0,4.0,59.0,Tehri Garhwal,False
+Thane,Maharashtra,19.599898839635923,73.15074470676555,561.0,Thane,Maharashtra,27.0,21.0,517.0,Thane,False
+Thanjavur,Tamil Nadu,10.671817103896965,79.24131275543154,562.0,Thanjavur,Tamil Nadu,33.0,19.0,620.0,Thanjavur,False
+The Dangs,Gujarat,20.80447847807105,73.70129234627201,563.0,The Dangs,Gujarat,24.0,22.0,489.0,The Dangs,False
+The Nilgiris,Tamil Nadu,11.455958240839385,76.64186513324944,564.0,The Nilgiris,Tamil Nadu,33.0,10.0,611.0,The Nilgiris,False
+Theni,Tamil Nadu,9.890375170016856,77.43938500560016,565.0,Theni,Tamil Nadu,33.0,23.0,624.0,Theni,False
+Thiruvallur,Tamil Nadu,13.24317784873116,79.94001747838598,566.0,Thiruvallur,Tamil Nadu,33.0,1.0,602.0,Thiruvallur,False
+Thiruvananthapuram,Kerala,8.608524364987337,77.01498218960208,567.0,Thiruvananthapuram,Kerala,32.0,14.0,601.0,Thiruvananthapuram,False
+Thiruvarur,Tamil Nadu,10.680041323131125,79.53599036015586,568.0,Thiruvarur,Tamil Nadu,33.0,18.0,619.0,Thiruvarur,False
+Thoothukkudi,Tamil Nadu,8.891117776153946,78.00445415880394,569.0,Thoothukkudi,Tamil Nadu,33.0,26.0,627.0,Thoothukkudi,False
+Thoubal,Manipur,24.530978826029337,93.97164968704558,570.0,Thoubal,Manipur,14.0,5.0,276.0,Thoubal,False
+Thrissur,Kerala,10.471286837705488,76.3161167652323,571.0,Thrissur,Kerala,32.0,7.0,594.0,Thrissur,False
+Tikamgarh,Madhya Pradesh,24.98898570744805,78.9465039273294,572.0,Tikamgarh,Madhya Pradesh,23.0,7.0,424.0,Tikamgarh,False
+Tinsukia,Assam,27.579101840312667,95.62652296736604,573.0,Tinsukia,Assam,18.0,10.0,309.0,Tinsukia,False
+Tirap,Arunanchal Pradesh,26.947384725769,95.4410010739774,574.0,Tirap,Arunanchal Pradesh,12.0,10.0,254.0,Tirap,False
+Tiruchirappalli,Tamil Nadu,10.889245200801502,78.57048871181497,575.0,Tiruchirappalli,Tamil Nadu,33.0,13.0,614.0,Tiruchirappalli,False
+Tirunelveli,Tamil Nadu,8.799094273323956,77.54190031680182,576.0,Tirunelveli,Tamil Nadu,33.0,27.0,628.0,Tirunelveli,False
+Tiruppur,Tamil Nadu,10.83845340659069,77.40544881195758,577.0,Tiruppur,Tamil Nadu,33.0,32.0,633.0,Tiruppur,False
+Tiruvannamalai,Tamil Nadu,12.431333957355442,79.1678217861826,578.0,Tiruvannamalai,Tamil Nadu,33.0,5.0,606.0,Tiruvannamalai,False
+Tonk,Rajasthan,26.14638089229708,75.67180863550215,579.0,Tonk,Rajasthan,8.0,22.0,120.0,Tonk,False
+Tuensang,Nagaland,26.20044521883849,94.9057240555982,580.0,Tuensang,Nagaland,13.0,7.0,267.0,Tuensang,False
+Tumkur,Karnataka,13.521044583916115,76.94783180504952,581.0,Tumkur,Karnataka,29.0,17.0,571.0,Tumkur,False
+Udaipur,Rajasthan,24.40851575770592,73.70626011695386,582.0,Udaipur,Rajasthan,8.0,32.0,130.0,Udaipur,False
+Udalguri,Assam,26.73018619396968,92.03729823875612,583.0,Udalguri,Assam,18.0,27.0,326.0,Udalguri,False
+Udhampur,Jammu & Kashmir,32.89427563353896,75.32754558121064,584.0,Udhampur,Jammu & Kashmir,1.0,19.0,19.0,Udhampur,False
+Udham Singh Nagar,Uttarakhand,29.02776115632774,79.52303220817136,585.0,Udham Singh Nagar,Uttarakhand,5.0,12.0,67.0,Udham Singh Nagar,False
+Udupi,Karnataka,13.46706218512078,74.88342538427055,586.0,Udupi,Karnataka,29.0,15.0,569.0,Udupi,False
+Ujjain,Madhya Pradesh,23.332079080240906,75.668444930473,587.0,Ujjain,Madhya Pradesh,23.0,18.0,435.0,Ujjain,False
+Ukhrul,Manipur,25.021053973199805,94.4340644643966,588.0,Ukhrul,Manipur,14.0,8.0,279.0,Ukhrul,False
+Umaria,Madhya Pradesh,23.56488687018652,80.97191148960069,589.0,Umaria,Madhya Pradesh,23.0,14.0,431.0,Umaria,False
+Una,Himachal Pradesh,31.580955138947143,76.20997784559887,590.0,Una,Himachal Pradesh,2.0,7.0,29.0,Una,False
+Unnao,Uttar Pradesh,26.60977194731183,80.55909307091727,591.0,Unnao,Uttar Pradesh,9.0,25.0,156.0,Unnao,False
+Upper Siang,Arunanchal Pradesh,28.8345055426473,94.91760988299148,592.0,Upper Siang,Arunanchal Pradesh,12.0,8.0,252.0,Upper Siang,False
+Upper Subansiri,Arunanchal Pradesh,28.290724529345532,93.93623703511244,593.0,Upper Subansiri,Arunanchal Pradesh,12.0,5.0,249.0,Upper Subansiri,False
+Uttar Dinajpur,West Bengal,25.882191589478044,88.15831739393371,,,,,,,,False
+Uttara Kannada,Karnataka,14.794944374838716,74.62287137039675,595.0,Uttara Kannada,Karnataka,29.0,9.0,563.0,Uttara Kannada,False
+Uttarkashi,Uttarakhand,30.97361118042324,78.60411389828127,596.0,Uttarkashi,Uttarakhand,5.0,1.0,56.0,Uttarkashi,False
+Vadodara,Gujarat,22.23349598831473,73.53191867627282,597.0,Vadodara,Gujarat,24.0,19.0,486.0,Vadodara,False
+Vaishali,Bihar,25.762522042655338,85.36997251852209,598.0,Vaishali,Bihar,10.0,18.0,220.0,Vaishali,False
+Valsad,Gujarat,20.418717330496563,73.11471059105378,599.0,Valsad,Gujarat,24.0,24.0,491.0,Valsad,False
+Varanasi,Uttar Pradesh,25.38816128735172,82.91759423418824,600.0,Varanasi,Uttar Pradesh,9.0,66.0,197.0,Varanasi,False
+Vellore,Tamil Nadu,12.812516513801286,79.0105701471062,601.0,Vellore,Tamil Nadu,33.0,4.0,605.0,Vellore,False
+Vidisha,Madhya Pradesh,23.893317232689608,77.81321838001777,602.0,Vidisha,Madhya Pradesh,23.0,26.0,443.0,Vidisha,False
+Viluppuram,Tamil Nadu,11.973722556631715,79.2923012123551,603.0,Viluppuram,Tamil Nadu,33.0,6.0,607.0,Viluppuram,False
+Virudunagar,Tamil Nadu,9.484042897475032,77.94308416539987,604.0,Virudunagar,Tamil Nadu,33.0,24.0,625.0,Virudunagar,False
+Visakhapatnam,Andhra Pradesh,17.89148803971867,82.69248708328601,605.0,Visakhapatnam,Andhra Pradesh,28.0,13.0,544.0,Visakhapatnam,False
+Vizianagaram,Andhra Pradesh,18.46834144450273,83.37943278068536,606.0,Vizianagaram,Andhra Pradesh,28.0,12.0,543.0,Vizianagaram,False
+Warangal,Andhra Pradesh,17.955869331754027,79.79947126103012,607.0,Warangal,Andhra Pradesh,28.0,9.0,540.0,Warangal,False
+Wardha,Maharashtra,20.796371374904773,78.58734883117462,608.0,Wardha,Maharashtra,27.0,8.0,504.0,Wardha,False
+Washim,Maharashtra,20.237911107699528,77.21924026059929,609.0,Washim,Maharashtra,27.0,6.0,502.0,Washim,False
+Wayanad,Kerala,11.711311834244396,76.09811693197327,610.0,Wayanad,Kerala,32.0,3.0,590.0,Wayanad,False
+West,NCT of Delhi,28.65532558667812,77.06569751923955,611.0,West,NCT of Delhi,7.0,7.0,96.0,West,False
+West,Sikkim,27.349339906767167,88.17793231618363,612.0,West,Sikkim,11.0,2.0,242.0,West,False
+West Garo Hills,Meghalaya,25.585497747933168,90.1448862905664,613.0,West Garo Hills,Meghalaya,17.0,1.0,293.0,West Garo Hills,False
+West Godavari,Andhra Pradesh,16.89516745667533,81.4021817221378,614.0,West Godavari,Andhra Pradesh,28.0,15.0,546.0,West Godavari,False
+West Kameng,Arunanchal Pradesh,27.30340758145484,92.4110325646892,615.0,West Kameng,Arunanchal Pradesh,12.0,2.0,246.0,West Kameng,False
+West Khasi Hills,Meghalaya,25.5268451140773,91.26089209983073,616.0,West Khasi Hills,Meghalaya,17.0,4.0,296.0,West Khasi Hills,False
+West Nimar,Madhya Pradesh,21.921272052156816,75.77460878138866,617.0,West Nimar,Madhya Pradesh,23.0,23.0,440.0,West Nimar,False
+West Siang,Arunanchal Pradesh,28.322927878575765,94.51117653458483,618.0,West Siang,Arunanchal Pradesh,12.0,6.0,250.0,West Siang,False
+West Tripura,Tripura,23.802672502664347,91.46501042186758,619.0,West Tripura,Tripura,16.0,1.0,289.0,West Tripura,False
+Wokha,Nagaland,26.18512048997169,94.19267919978742,620.0,Wokha,Nagaland,13.0,4.0,264.0,Wokha,False
+Yadgir,Karnataka,16.626598716121137,76.91377610504323,621.0,Yadgir,Karnataka,29.0,26.0,580.0,Yadgir,False
+Yavatmal,Maharashtra,20.084650994671357,78.16230383547742,622.0,Yavatmal,Maharashtra,27.0,14.0,510.0,Yavatmal,False
+Zunheboto,Nagaland,26.031817392364857,94.525275072281,623.0,Zunheboto,Nagaland,13.0,3.0,263.0,Zunheboto,False
+Kabeerdham,Chhattisgarh,22.09146437738945,81.2231818746198,624.0,Kabeerdham,Chhattisgarh,22.0,8.0,407.0,Kabeerdham,False
+Yamunanagar,Haryana,30.236694344903142,77.3050480642392,625.0,Yamunanagar,Haryana,6.0,3.0,71.0,Yamunanagar,False
+Jind,Haryana,29.43580828496418,76.30074552136887,626.0,Jind,Haryana,6.0,9.0,77.0,Jind,False
+Dausa,Rajasthan,26.85659486954641,76.51418662909852,627.0,Dausa,Rajasthan,8.0,11.0,109.0,Dausa,False
+Karauli,Rajasthan,26.5213515655517,76.96386373293036,628.0,Karauli,Rajasthan,8.0,9.0,107.0,Karauli,False
+Sawai Madhopur,Rajasthan,26.21755812516648,76.46803578178042,629.0,Sawai Madhopur,Rajasthan,8.0,10.0,108.0,Sawai Madhopur,False
+Arwal,Bihar,25.16161312119997,84.69039962723593,630.0,Arwal,Bihar,10.0,38.0,240.0,Arwal,False
+Jehanabad,Bihar,25.156648488728337,85.03013745027282,631.0,Jehanabad,Bihar,10.0,37.0,239.0,Jehanabad,False
+Nagappattinam,Tamil Nadu,10.84993939355108,79.73887599809639,632.0,Nagappattinam,Tamil Nadu,33.0,17.0,618.0,Nagappattinam,False
+Karaikal,Puducherry,10.934385863062438,79.80206128269405,633.0,Karaikal,Puducherry,34.0,4.0,637.0,Karaikal,False
+Puducherry,Puducherry,11.912123019220116,79.73299720341512,603.0,Viluppuram,Tamil Nadu,33.0,6.0,607.0,Viluppuram,False
+Yanam,Puducherry,16.72665043292048,82.2545591506466,635.0,Yanam,Puducherry,34.0,1.0,634.0,Yanam,False
+Tapi,Gujarat,21.191914268739257,73.63142971512715,636.0,Tapi,Gujarat,24.0,26.0,493.0,Tapi,False
+Nicobar,Andaman & Nicobar Island,7.518502551203453,93.602369917759,,,,,,,,False
+South Andaman,Andaman & Nicobar Island,11.520841433405728,92.64919071064934,,,,,,,,False
+North & Middle Andaman,Andaman & Nicobar Island,12.838815857695144,92.86761248626436,639.0,North & Middle Andaman,Andaman & Nicobar Island,35.0,2.0,639.0,North & Middle Andaman,False
+Lakshadweep,Lakshadweep,11.095643302258267,72.73425941843428,,,,,,,,False

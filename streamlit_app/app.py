@@ -1,29 +1,56 @@
+
 import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from config.settings import COUNTRY_CONFIG
 
 # ------------------------
-# CONFIG & LOAD DATA
+# PAGE CONFIG
 # ------------------------
 
-st.set_page_config(page_title="AutoMapAU Dashboard", layout="wide")
+st.set_page_config(page_title="AutoMap360 Dashboard", layout="wide")
+
+st.title("📍 AutoMap360: Suburb-to-Region Mapping Dashboard")
+
+# ------------------------
+# SIDEBAR FILTER: COUNTRY FIRST
+# ------------------------
+
+with st.sidebar:
+    st.header("🌍 Select Country to Begin")
+    country_display = st.selectbox("Country", ["Select Country"] + [v["name"] for v in COUNTRY_CONFIG.values()])
+
+# Only proceed if a valid country is selected
+if country_display == "Select Country":
+    st.info("Please select a country from the sidebar to load mapping data.")
+    st.stop()
+
+# Get country code from name
+country_code = next(code for code, cfg in COUNTRY_CONFIG.items() if cfg["name"] == country_display)
+config = COUNTRY_CONFIG[country_code]
+
+# ------------------------
+# LOAD DATA FOR SELECTED COUNTRY
+# ------------------------
 
 @st.cache_data
-def load_data():
-    return pd.read_csv("output/final_output_fully_patched.csv")
+def load_data(file_path):
+    return pd.read_csv(file_path)
 
-df = load_data()
-
-st.title("📍 AutoMapAU: Suburb-to-Region Mapping Dashboard")
+df = load_data(config["output_file"])
 
 # ------------------------
 # GLOBAL METRICS
 # ------------------------
 
+unmapped_keywords = ["Unknown", "None", "", "Regional", "Unmappable - Needs Manual Classification"]
+
 total = len(df)
 unique_regions = df['final_region'].nunique()
-unmapped_keywords = ["Unknown", "None", "", "Regional", "Unmappable - Needs Manual Classification"]
 unmapped = df['final_region'].isna().sum() + df['final_region'].astype(str).str.strip().isin(unmapped_keywords).sum()
 
 col1, col2, col3 = st.columns(3)
@@ -34,39 +61,37 @@ col3.metric("❌ Unmapped or Edge Cases", unmapped)
 st.markdown("---")
 
 # ------------------------
-# SIDEBAR FILTERS
+# SIDEBAR FILTERS (REGION, STATE, SUBURB)
 # ------------------------
 
 with st.sidebar:
-    st.header("🔎 Filters")
+    st.header("🔎 Refine Your View")
 
     selected_state = st.selectbox("Select State", options=["All"] + sorted(df["state"].dropna().unique().tolist()))
-
-    state_df = df.copy() if selected_state == "All" else df[df["state"] == selected_state]
-
-    available_regions = sorted(state_df["final_region"].dropna().unique().tolist())
-    available_suburbs = sorted(state_df["suburb"].dropna().unique().tolist())
-
-    selected_region = st.selectbox("Select Region", options=["All"] + available_regions)
+    selected_region = st.selectbox("Select Region", options=["All"] + sorted(df["final_region"].dropna().unique().tolist()))
     selected_suburb = st.text_input("Search Suburb (partial match, case-insensitive)")
 
 # ------------------------
 # FILTER DATA
 # ------------------------
 
-filtered = state_df.copy()
+filtered = df.copy()
+
+if selected_state != "All":
+    filtered = filtered[filtered["state"] == selected_state]
 
 if selected_region != "All":
     filtered = filtered[filtered["final_region"] == selected_region]
+
 if selected_suburb:
     filtered = filtered[filtered["suburb"].str.lower().str.contains(selected_suburb.lower())]
 
 # ------------------------
-# FILTER METRICS
+# FILTERED METRICS
 # ------------------------
 
 st.markdown("---")
-st.subheader("📂 Filtered Suburb Summary")
+st.subheader(f"📂 Filtered Results for {country_display}")
 
 filtered_total = len(filtered)
 filtered_unmapped = (
@@ -83,9 +108,10 @@ colC.metric("🚫 Unmapped", filtered_unmapped)
 colD.metric("✅ Mapped %", f"{mapped_percent:.2f}%")
 
 # ------------------------
-# TABLE PREVIEW
+# DATA TABLE
 # ------------------------
 
+st.markdown("### 📋 Filtered Suburb Data")
 st.dataframe(filtered[["suburb", "state", "final_region", "latitude", "longitude"]], use_container_width=True)
 
 # ------------------------
@@ -93,15 +119,13 @@ st.dataframe(filtered[["suburb", "state", "final_region", "latitude", "longitude
 # ------------------------
 
 MAX_MARKERS = 500
-if len(filtered) > MAX_MARKERS:
-    st.warning(f"Showing only first {MAX_MARKERS} markers for performance.")
-    filtered_map = filtered.head(MAX_MARKERS)
-else:
-    filtered_map = filtered
+filtered_map = filtered.head(MAX_MARKERS)
 
 if not filtered_map.empty:
-    st.subheader("🗺️ Map of Suburbs")
-    m = folium.Map(location=[-25.0, 133.0], zoom_start=4)
+    st.subheader("🗺️ Map View (Filtered)")
+    avg_lat = filtered_map["latitude"].mean()
+    avg_lon = filtered_map["longitude"].mean()
+    m = folium.Map(location=[avg_lat, avg_lon], zoom_start=6)
     for _, row in filtered_map.iterrows():
         folium.CircleMarker(
             location=[row["latitude"], row["longitude"]],
@@ -124,17 +148,16 @@ st.markdown("### 📥 Download Filtered Results")
 st.download_button(
     label="Download CSV (Filtered)",
     data=filtered.to_csv(index=False),
-    file_name="filtered_suburbs.csv",
+    file_name=f"filtered_suburbs_{country_code}.csv",
     mime="text/csv"
 )
 
-# Optional: Download unmapped
 unmapped_df = df[df['final_region'].isna() | df['final_region'].astype(str).str.strip().isin(unmapped_keywords)]
 if not unmapped_df.empty:
     st.markdown("### 🚧 Export Only Unmapped or Edge Cases")
     st.download_button(
         label="Download Unmapped CSV",
         data=unmapped_df.to_csv(index=False),
-        file_name="unmapped_or_edge_suburbs.csv",
+        file_name=f"unmapped_suburbs_{country_code}.csv",
         mime="text/csv"
     )
