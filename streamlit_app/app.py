@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import folium
@@ -12,7 +11,7 @@ st.set_page_config(page_title="AutoMapAU Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("output/final_output_with_geo_fallback.csv")
+    return pd.read_csv("output/final_output_fully_patched.csv")
 
 df = load_data()
 
@@ -23,18 +22,19 @@ st.title("📍 AutoMapAU: Suburb-to-Region Mapping Dashboard")
 # ------------------------
 
 total = len(df)
-unique_regions = df['assigned_region'].nunique()
-unmapped = df['assigned_region'].isna().sum() + df['assigned_region'].astype(str).str.strip().isin(["Unknown", "Regional", "", "None"]).sum()
+unique_regions = df['final_region'].nunique()
+unmapped_keywords = ["Unknown", "None", "", "Regional", "Unmappable - Needs Manual Classification"]
+unmapped = df['final_region'].isna().sum() + df['final_region'].astype(str).str.strip().isin(unmapped_keywords).sum()
 
 col1, col2, col3 = st.columns(3)
 col1.metric("🧾 Total Suburbs", total)
 col2.metric("🌐 Regions Assigned", unique_regions)
-col3.metric("❌ Unmapped", unmapped)
+col3.metric("❌ Unmapped or Edge Cases", unmapped)
 
 st.markdown("---")
 
 # ------------------------
-# SIDEBAR FILTERS (Dependent)
+# SIDEBAR FILTERS
 # ------------------------
 
 with st.sidebar:
@@ -42,12 +42,9 @@ with st.sidebar:
 
     selected_state = st.selectbox("Select State", options=["All"] + sorted(df["state"].dropna().unique().tolist()))
 
-    if selected_state != "All":
-        state_df = df[df["state"] == selected_state]
-    else:
-        state_df = df.copy()
+    state_df = df.copy() if selected_state == "All" else df[df["state"] == selected_state]
 
-    available_regions = sorted(state_df["assigned_region"].dropna().unique().tolist())
+    available_regions = sorted(state_df["final_region"].dropna().unique().tolist())
     available_suburbs = sorted(state_df["suburb"].dropna().unique().tolist())
 
     selected_region = st.selectbox("Select Region", options=["All"] + available_regions)
@@ -60,7 +57,7 @@ with st.sidebar:
 filtered = state_df.copy()
 
 if selected_region != "All":
-    filtered = filtered[filtered["assigned_region"] == selected_region]
+    filtered = filtered[filtered["final_region"] == selected_region]
 if selected_suburb:
     filtered = filtered[filtered["suburb"].str.lower().str.contains(selected_suburb.lower())]
 
@@ -73,8 +70,8 @@ st.subheader("📂 Filtered Suburb Summary")
 
 filtered_total = len(filtered)
 filtered_unmapped = (
-    filtered['assigned_region'].isna().sum() +
-    filtered['assigned_region'].astype(str).str.strip().isin(["Unknown", "Regional", "", "None"]).sum()
+    filtered['final_region'].isna().sum() +
+    filtered['final_region'].astype(str).str.strip().isin(unmapped_keywords).sum()
 )
 filtered_mapped = filtered_total - filtered_unmapped
 mapped_percent = (filtered_mapped / filtered_total * 100) if filtered_total > 0 else 0
@@ -89,10 +86,10 @@ colD.metric("✅ Mapped %", f"{mapped_percent:.2f}%")
 # TABLE PREVIEW
 # ------------------------
 
-st.dataframe(filtered[["suburb", "state", "assigned_region", "latitude", "longitude"]], use_container_width=True)
+st.dataframe(filtered[["suburb", "state", "final_region", "latitude", "longitude"]], use_container_width=True)
 
 # ------------------------
-# MAP WITH MARKERS (LIMITED)
+# MAP WITH MARKERS
 # ------------------------
 
 MAX_MARKERS = 500
@@ -113,20 +110,31 @@ if not filtered_map.empty:
             fill=True,
             fill_color="blue",
             fill_opacity=0.7,
-            popup=f"{row['suburb']} ({row['state']}) → {row['assigned_region']}"
+            popup=f"{row['suburb']} ({row['state']}) → {row['final_region']}"
         ).add_to(m)
     st_data = st_folium(m, width=1000)
 else:
     st.info("No suburbs to show on map.")
 
 # ------------------------
-# DOWNLOAD BUTTON
+# DOWNLOAD BUTTONS
 # ------------------------
 
-st.markdown("### 📥 Export Filtered Suburbs")
+st.markdown("### 📥 Download Filtered Results")
 st.download_button(
-    label="Download CSV",
+    label="Download CSV (Filtered)",
     data=filtered.to_csv(index=False),
     file_name="filtered_suburbs.csv",
     mime="text/csv"
 )
+
+# Optional: Download unmapped
+unmapped_df = df[df['final_region'].isna() | df['final_region'].astype(str).str.strip().isin(unmapped_keywords)]
+if not unmapped_df.empty:
+    st.markdown("### 🚧 Export Only Unmapped or Edge Cases")
+    st.download_button(
+        label="Download Unmapped CSV",
+        data=unmapped_df.to_csv(index=False),
+        file_name="unmapped_or_edge_suburbs.csv",
+        mime="text/csv"
+    )
