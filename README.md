@@ -1,71 +1,59 @@
+# 🗺️ AutoMap360: Global Suburb-to-Region Mapping Engine (AU, NZ, IN)
 
-# 🗺️ AutoMapAU: Automated Suburb-to-Region Mapping Platform for Australia
-
-AutoMapAU is a fully open-source, Python-based geospatial automation project designed to map all ~17,000+ Australian suburbs to accurate, SEO-friendly regions using authoritative data sources like ABS shapefiles and postcode boundaries. The platform integrates fuzzy logic, proximity-based geolocation, and spatial validation to ensure every suburb receives a correct and meaningful region assignment.
+AutoMap360 is a full-stack, open-source geospatial pipeline that maps suburb/locality-level data to standardized regions using government-backed shapefiles. It supports Australia 🇦🇺, New Zealand 🇳🇿, and India 🇮🇳 with region assignment, QA checks, and a Streamlit dashboard.
 
 ---
 
 ## 🎯 Project Vision
 
-To enable developers, analysts, and businesses to automate the transformation of raw suburb-level datasets into rich, regionally grouped insights without relying on manual data entry, third-party services, or guesswork.
+To empower developers and data teams with a transparent, extensible, and fully free solution for geospatial grouping using authoritative public data – no API fees, no manual mapping.
 
-AutoMapAU aims to be:
-
-- 📍 **Accurate**: Uses official geospatial boundaries (SA4) from the ABS.
-- ⚙️ **Automated**: Fully Python-driven pipeline with layered matching and QA.
-- 🌐 **Interactive**: Streamlit dashboard to search, filter, map, and explore.
-- 🔄 **Reusable**: Modular design for integration into other projects or business processes.
+### Why AutoMap360?
+- ✅ **100% offline + reproducible**
+- 📍 **Accurate**: Uses official SA4 (AU), district (IN), and territorial/local authority (NZ) boundaries
+- 🧠 **Intelligent**: Uses spatial joins, fuzzy matching, geocoding, and QA
+- 🧪 **Auditable**: QA reports on mapping accuracy, unmapped cases, and confidence
+- 🔄 **Reusable**: Modular scripts for ingestion, validation, patching
 
 ---
 
-## 💡 Use Cases
+## 🌐 Supported Countries
 
-- **Digital marketing**: Group suburb-level leads or customers into larger SEO-friendly regions (e.g. "Western Sydney", "Gold Coast").
-- **Sales territory planning**: Align sales/service coverage based on regional logic.
-- **Government/NGO outreach**: Aggregate suburb data into standard ABS reporting zones.
-- **Logistics & delivery**: Assign operational zones or cluster deliveries by mapped region.
-- **Geospatial analytics**: Enrich customer or user data with regional groupings.
+| Country       | Region Field     | Coverage         | Input Source Format |
+|---------------|------------------|------------------|----------------------|
+| Australia 🇦🇺  | SA4_NAME21       | 17,732 suburbs   | Cleaned CSV          |
+| New Zealand 🇳🇿| name (GeoJSON)   | 6,562 suburbs    | Shape → CSV          |
+| India 🇮🇳      | DISTRICT         | 641 districts    | Census shapefile     |
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Python 3.10+**
-- **Pandas, NumPy, RapidFuzz** – for data processing and fuzzy matching
-- **SciPy (KDTree)** – for proximity-based region assignment
-- **GeoPandas + Shapefiles** – for spatial joins using ABS SA4 + SAL
-- **Streamlit + Folium** – for dashboarding and map visualisation
+- `Python 3.10+`
+- `pandas`, `numpy`, `geopandas`
+- `RapidFuzz`, `SciPy`, `shapely`
+- `streamlit`, `folium`
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
 ```
 auto-map-au/
-│
-├── data/
-│   ├── suburbs_geocoded.csv
-│   ├── sal_to_sa4_mapping_with_latlon.csv
-│
+├── countries/
+│   ├── au/
+│   │   ├── source.csv
+│   │   └── boundaries/ (excluded from GitHub)
+│   ├── nz/
+│   ├── in/
 ├── output/
-│   └── final_output_with_geo_fallback.csv
-│
-├── qa_logs/
-│   ├── qa_summary.txt
-│   ├── sample_check.csv
-│   └── unmapped_suburbs.csv
-│
 ├── scripts/
-│   ├── join_geocoded_with_region_fallback.py
-│   ├── enrich_sal_to_sa4_with_latlon.py
-│   └── qa_check.py
-│
+├── qa_logs/
 ├── streamlit_app/
 │   └── app.py
-
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── config/
+│   └── settings.py
+└── requirements.txt
 ```
 
 ---
@@ -73,67 +61,54 @@ auto-map-au/
 ## 🚀 How to Run
 
 ```bash
-# Install dependencies
+# 1. Install dependencies
 pip install -r requirements.txt
 
-# Run the dashboard
+# 2. Run pipeline for a country (au, nz, in)
+python scripts/pipeline.py --country au
+
+# 3. QA report (optional)
+python scripts/validate_mapping.py --country au
+
+# 4. Launch dashboard
 streamlit run streamlit_app/app.py
 ```
 
 ---
 
-### 🔽 Download SAL & SA4 Shapefiles
+## 🗃️ Shapefile Setup (Required!)
 
-Due to GitHub's 100MB file limit, these must be downloaded manually:
+Due to GitHub limits, boundary files are excluded. Download and place them in:
 
-- [Suburbs and Localities (SAL)](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files)
-- [Statistical Areas Level 4 (SA4)](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files)
-
----
-
-## 🌐 Streamlit Cloud (optional)
-
-You can deploy this app to Streamlit Cloud for free. Just:
-
-1. Push the repo to GitHub
-2. Go to https://streamlit.io/cloud
-3. Connect your GitHub repo
-4. Set app path to `streamlit_app/app.py`
-5. Click Deploy 🚀
+- **Australia**: `countries/au/boundaries/SA4_2021_AUST_GDA2020.shp` (from ABS)
+- **New Zealand**: `countries/nz/boundaries/nz-suburbs-and-localities.shp` (from LINZ LDS)
+- **India**: `countries/in/boundaries/india-districts.shp` (from Datameet or Bhuvan)
 
 ---
 
 ## 📊 Dashboard Features
 
-- 🔍 Filter suburbs by state, region, or search term
-- 🗺️ Interactive map with clustered suburb markers
-- 📄 Download button to export filtered data
-- 📈 QA logs and mapping confidence checks
+- Search, filter, and view suburbs by country/state/region
+- Interactive folium map with markers and popups
+- Download buttons for filtered/unmapped exports
 
 ---
 
-## 🛠️ QA Metrics (Example)
+## 📦 Outputs
 
-- ✅ Total suburbs processed: 17,732
-- ❌ Unmapped: 0 (after fallback layer applied)
-- 🧭 Unique regions mapped: 88+
-
----
-
-## 🧪 Test It Yourself
-
-Use the dashboard to:
-- Search for `Wollongong`, `Parramatta`, or `Mount Isa`
-- See which SEO region they map to
-- Export the results for reporting
+| File                          | Description                    |
+|-------------------------------|--------------------------------|
+| `output.csv`                 | Final mapping per country      |
+| `qa_logs/qa_summary.txt`     | QA metrics                     |
+| `qa_logs/unmapped.csv`       | Suburbs with missing regions   |
 
 ---
 
 ## 🧑‍💻 Author
 
 **Ojas Shukla**  
-Data Engineer | Geospatial Nerd | Open-Source Advocate  
-[GitHub](https://github.com/your-handle) | [LinkedIn](https://linkedin.com/in/your-handle)
+Data Engineer | Open Geo Advocate | OSS Contributor  
+[GitHub](https://github.com/ojasshukla01) | [LinkedIn](https://linkedin.com/in/ojas-shukla)
 
 ---
 
