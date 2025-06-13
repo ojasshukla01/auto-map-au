@@ -1,10 +1,11 @@
-
 import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
 import sys
 import os
+
+# ✅ Ensure config/settings.py is importable (important for Streamlit Cloud)
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config.settings import COUNTRY_CONFIG
 
@@ -13,7 +14,6 @@ from config.settings import COUNTRY_CONFIG
 # ------------------------
 
 st.set_page_config(page_title="AutoMap360 Dashboard", layout="wide")
-
 st.title("📍 AutoMap360: Suburb-to-Region Mapping Dashboard")
 
 # ------------------------
@@ -24,31 +24,33 @@ with st.sidebar:
     st.header("🌍 Select Country to Begin")
     country_display = st.selectbox("Country", ["Select Country"] + [v["name"] for v in COUNTRY_CONFIG.values()])
 
-# Only proceed if a valid country is selected
 if country_display == "Select Country":
     st.info("Please select a country from the sidebar to load mapping data.")
     st.stop()
 
-# Get country code from name
+# Get the selected country config
 country_code = next(code for code, cfg in COUNTRY_CONFIG.items() if cfg["name"] == country_display)
 config = COUNTRY_CONFIG[country_code]
 
 # ------------------------
-# LOAD DATA FOR SELECTED COUNTRY
+# LOAD DATA (Only CSVs)
 # ------------------------
 
 @st.cache_data
-def load_data(file_path):
-    return pd.read_csv(file_path)
+def load_data(path):
+    return pd.read_csv(path)
 
-df = load_data(config["output_file"])
+try:
+    df = load_data(config["output_file"])
+except Exception as e:
+    st.error(f"❌ Could not load data for {country_display}: {e}")
+    st.stop()
 
 # ------------------------
 # GLOBAL METRICS
 # ------------------------
 
 unmapped_keywords = ["Unknown", "None", "", "Regional", "Unmappable - Needs Manual Classification"]
-
 total = len(df)
 unique_regions = df['final_region'].nunique()
 unmapped = df['final_region'].isna().sum() + df['final_region'].astype(str).str.strip().isin(unmapped_keywords).sum()
@@ -61,14 +63,13 @@ col3.metric("❌ Unmapped or Edge Cases", unmapped)
 st.markdown("---")
 
 # ------------------------
-# SIDEBAR FILTERS (REGION, STATE, SUBURB)
+# SIDEBAR FILTERS
 # ------------------------
 
 with st.sidebar:
     st.header("🔎 Refine Your View")
-
-    selected_state = st.selectbox("Select State", options=["All"] + sorted(df["state"].dropna().unique().tolist()))
-    selected_region = st.selectbox("Select Region", options=["All"] + sorted(df["final_region"].dropna().unique().tolist()))
+    selected_state = st.selectbox("Select State", ["All"] + sorted(df["state"].dropna().unique().tolist()))
+    selected_region = st.selectbox("Select Region", ["All"] + sorted(df["final_region"].dropna().unique().tolist()))
     selected_suburb = st.text_input("Search Suburb (partial match, case-insensitive)")
 
 # ------------------------
@@ -115,7 +116,7 @@ st.markdown("### 📋 Filtered Suburb Data")
 st.dataframe(filtered[["suburb", "state", "final_region", "latitude", "longitude"]], use_container_width=True)
 
 # ------------------------
-# MAP WITH MARKERS
+# MAP WITH FOLIUM
 # ------------------------
 
 MAX_MARKERS = 500
@@ -141,7 +142,7 @@ else:
     st.info("No suburbs to show on map.")
 
 # ------------------------
-# DOWNLOAD BUTTONS
+# DOWNLOADS
 # ------------------------
 
 st.markdown("### 📥 Download Filtered Results")
